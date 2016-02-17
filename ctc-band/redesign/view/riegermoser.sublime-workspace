@@ -1,0 +1,2890 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upda",
+				"updateEntries"
+			],
+			[
+				"Entr",
+				"EntryService"
+			],
+			[
+				"En",
+				"EntryService"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"Pro",
+				"ProjectService"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"ion",
+				"ion-list"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"im",
+				"imgURI"
+			],
+			[
+				"$state",
+				"$stateParams"
+			],
+			[
+				"ion-",
+				"ion-item"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ng-c",
+				"ng-controller	AngularJS"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"$scope",
+				"$rootScope	AngularJS"
+			],
+			[
+				"ngv",
+				"ng-view	AngularJS"
+			],
+			[
+				"monat",
+				"Monate"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"row",
+				"rowdeciderswitch"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"entry",
+				"entry-content"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cate",
+				"category-faq"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pan",
+				"panel-heading"
+			],
+			[
+				"LOTSE",
+				"lotse"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"pna",
+				"panel-footer"
+			],
+			[
+				"page",
+				"page-title"
+			],
+			[
+				"add",
+				"add_to_cart_button"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"container",
+				"container-p"
+			],
+			[
+				"si",
+				"site-footer"
+			],
+			[
+				"foote",
+				"footer-buttons"
+			],
+			[
+				"h1",
+				"h1	Tag"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"an",
+				"anim-fade"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"style",
+				"style	Tag"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"sub",
+				"sub-menu"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"link",
+				"link-hover"
+			],
+			[
+				"font-",
+				"font-family-base"
+			],
+			[
+				"height",
+				"max-height"
+			],
+			[
+				"In",
+				"IntroTrigger"
+			],
+			[
+				"lo",
+				"loseLevel"
+			],
+			[
+				"walk",
+				"walkSpeed"
+			],
+			[
+				"ene",
+				"enemyType"
+			],
+			[
+				"hit",
+				"hitbox"
+			],
+			[
+				"is",
+				"instanceof"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"cha",
+				"challengetype"
+			],
+			[
+				"jump",
+				"jumping"
+			],
+			[
+				"open",
+				"openMap"
+			],
+			[
+				"start",
+				"startstop"
+			],
+			[
+				"cons",
+				"consumeEvent"
+			],
+			[
+				"ar",
+				"airborneLeft"
+			],
+			[
+				"fall",
+				"falling"
+			],
+			[
+				"font-s",
+				"font-size-base"
+			],
+			[
+				"del",
+				"deltaMagnitudeDiff"
+			],
+			[
+				"d",
+				"deltaMagnitudeDiff"
+			],
+			[
+				"star",
+				"startplane"
+			],
+			[
+				"he",
+				"headerbar"
+			],
+			[
+				"Get",
+				"GetString"
+			],
+			[
+				"H",
+				"height"
+			],
+			[
+				"gate",
+				"gatetext"
+			],
+			[
+				"rec",
+				"recover"
+			],
+			[
+				"re",
+				"recovering"
+			],
+			[
+				"tim",
+				"climb_timer"
+			],
+			[
+				"chal",
+				"challengeTimeout"
+			],
+			[
+				"ch",
+				"challengeTimer"
+			],
+			[
+				"s",
+				"startchallenge"
+			],
+			[
+				"v",
+				"velocity"
+			],
+			[
+				"wal",
+				"walk_velocity"
+			],
+			[
+				"startc",
+				"startchallenge"
+			],
+			[
+				"wa",
+				"walkLeft"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"pla",
+				"playerStates"
+			],
+			[
+				"pl",
+				"playerStates"
+			],
+			[
+				"I",
+				"IntroTrigger"
+			],
+			[
+				"pi",
+				"pickupOn"
+			],
+			[
+				"show",
+				"showtext"
+			],
+			[
+				"on",
+				"onReady"
+			],
+			[
+				"intr",
+				"introtext"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"nex",
+				"next"
+			],
+			[
+				"pre",
+				"prev"
+			],
+			[
+				"prev",
+				"prevname"
+			],
+			[
+				"next",
+				"nextpage"
+			],
+			[
+				"obj",
+				"objname"
+			],
+			[
+				"g",
+				"gameobject"
+			],
+			[
+				"name",
+				"namewidth"
+			],
+			[
+				"Name",
+				"namewidth"
+			],
+			[
+				"nam",
+				"namewidth"
+			],
+			[
+				"comp",
+				"computer"
+			],
+			[
+				"clim",
+				"climb_timer"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"cli",
+				"climbup"
+			],
+			[
+				"cl",
+				"climbing"
+			],
+			[
+				"stop",
+				"stopclimbing"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/anfrage.html",
+			"settings":
+			{
+				"buffer_size": 5813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/menu.html",
+			"settings":
+			{
+				"buffer_size": 1130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/project.html",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/projectDetails.html",
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/newProject.html",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/newEntry.html",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/package.json",
+			"settings":
+			{
+				"buffer_size": 431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/index.html",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 7366,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/example.js",
+			"settings":
+			{
+				"buffer_size": 3441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/playlists.html",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 279.0,
+		"selected_items":
+		[
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"disal",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"lintmode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"linteren",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"encod",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"ssle",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"setlintmode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"lintmo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssless",
+				"Set Syntax: LESS"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ss c",
+				"Set Syntax: C#"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggl",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ss bib",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"lin",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"sslate",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"toggle   s",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 708.0
+	},
+	"console":
+	{
+		"height": 234.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/css",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/sanderdrummer/index.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/hooks/after_prepare/010_add_platform_class.js",
+		"/C/xampp/htdocs/sanderdrummer/about.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/app.js",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/project.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/fuhrpark.html",
+		"/C/Users/funkp_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/index.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/css/ionic.app.css",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/css/style.css",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/config.xml",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/anfrage.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/newProject.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/projectDetails.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/Fuhrpark.html",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/scss/ionic.app.scss",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/controllers.js",
+		"/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/lib/ionic/scss/_variables.scss",
+		"/C/xampp/htdocs/ctc-2015/app/view/Home/home.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/Band/band.js",
+		"/C/xampp/htdocs/ctc-2015/app/index.html",
+		"/C/xampp/htdocs/ctc-2015/app/public/style/variables.css",
+		"/C/xampp/htdocs/ctc-2015/app/less/variables.less",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-less/node_modules/less/test/css/variables-in-at-rules.css",
+		"/C/xampp/htdocs/ctc-2015/node_modules/bower/node_modules/inquirer/node_modules/cli-color/node_modules/es5-ext/array/valid-array.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/header.js",
+		"/C/xampp/htdocs/ctc-2015/app/less/animate.less",
+		"/C/xampp/htdocs/ctc-2015/bower.json",
+		"/C/xampp/htdocs/ctc-2015/app/view/Bilder/bilder.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/app.js",
+		"/C/xampp/htdocs/ctc-2015/app/public/js/app.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Home/home.js",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-util/lib/isNull.js",
+		"/C/xampp/htdocs/ctc-2015/npm-debug.log",
+		"/C/xampp/htdocs/ctc-2015/app/public/news.json",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-less/node_modules/less/test/browser/runner-main-options.js",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-jshint/node_modules/jshint/data/non-ascii-identifier-part-only.js",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-less/node_modules/.bin/lessc",
+		"/C/xampp/htdocs/ctc-2015/node_modules/gulp-less/node_modules/less/lib/less/less-error.js",
+		"/C/xampp/htdocs/ctc-2015/LICENSE",
+		"/C/xampp/htdocs/ctc-2015/app/view/Kontakt/kontakt.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/Kontakt/kontakt.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Musik/musik.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Musik/musik.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/Band/band.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/Gigs/gigs.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Gigs/gigs.html",
+		"/C/Users/funkp_000/Desktop/wow.js",
+		"/C/xampp/htdocs/ctc-2015/app/news.json",
+		"/C/xampp/htdocs/ctc-2015/app/bower_components/ngAudio/app/index.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/footer.js",
+		"/C/xampp/htdocs/ctc-2015/gulpfile.js",
+		"/C/xampp/htdocs/ctc-2015/app/bower_components/ngAudio/app/scripts/main.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Footer/footer.js",
+		"/C/xampp/htdocs/ctc-2015/app/bower_components/ngAudio/app/angular.audio.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/ngAudio.js",
+		"/C/Users/funkp_000/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/funkp_000/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/xampp/htdocs/ctc-2015/app/view/Footer/footer.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/view1/view1.html",
+		"/C/xampp/htdocs/ctc-2015/app/index-async.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/Header/header.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/Header/header.html",
+		"/C/xampp/htdocs/ctc-2015/app/view/view2/view2.html",
+		"/C/xampp/htdocs/ctc-2015/package.json",
+		"/C/xampp/htdocs/ctc-2015/app/view/view1/view1.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/view2/view2.js",
+		"/C/xampp/htdocs/ctc-2015/app/less/main.less",
+		"/C/xampp/htdocs/ctc-2015/app/public/style/main.css",
+		"/C/xampp/htdocs/ctc-2015/app/view/view1/view1_test.js",
+		"/C/xampp/htdocs/ctc-2015/app/app.js",
+		"/C/xampp/htdocs/ctc-2015/app/view/view2/view2_test.js",
+		"/C/xampp/htdocs/ctc-2015/app/bower_components/angular/angular.min.js",
+		"/C/Users/funkp_000/Downloads/DB1830261.sql",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-includes/streams.php",
+		"/C/xampp/htdocs/demo/seriousgame/vendor/nesbot/carbon/tests/SubTest.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/styles.less",
+		"/C/Users/funkp_000/Documents/Projekte/simpleshopping/www/js/index.js",
+		"/C/Users/funkp_000/Documents/Projekte/Lotse Projekt/Cuba Faurito März 2014/lotsefrage/config.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/tp/inc/custom-header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer-faq",
+		"/C/Users/funkp_000/Downloads/pure-layout-pricing/index.html",
+		"/C/Users/funkp_000/Downloads/pure-layout-side-menu/index.html",
+		"/C/Users/funkp_000/Downloads/pure-layout-side-menu/css/layouts/side-menu.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/js/bootstrap-wp.js",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/header.php",
+		"/C/xampp/htdocs/dg/css/style.css",
+		"/C/xampp/htdocs/dg/index.html",
+		"/C/xampp/htdocs/dg/about.html",
+		"/C/xampp/htdocs/dg/drumset.html",
+		"/C/xampp/htdocs/german/js/app.js",
+		"/C/xampp/htdocs/german/js/de_mail.js",
+		"/C/xampp/htdocs/german/js/mail.js",
+		"/C/xampp/htdocs/german/sidebar-backup.php",
+		"/C/xampp/htdocs/german/de/footer.php",
+		"/C/xampp/htdocs/german/de/sidebar.php",
+		"/C/xampp/htdocs/lotsefrage/config.php",
+		"/C/xampp/htdocs/lotsefrage/index.php",
+		"/C/xampp/htdocs/german/footer.php",
+		"/C/xampp/htdocs/german/sidebar.php",
+		"/C/Users/funkp_000/Downloads/pure.min.css",
+		"/C/Users/funkp_000/Downloads/pure-layout-email/index.html",
+		"/C/Users/funkp_000/Downloads/pure-layout-gallery/index.html",
+		"/C/Users/funkp_000/Downloads/wiesentcenter/wiesentcenter/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content-single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/content.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/content.php",
+		"/C/xampp/htdocs/netz/mail.php",
+		"/C/xampp/htdocs/ctc-redesign/kontakt.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/resources/bootstrap/css/panels.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/sidebar.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/styles.less",
+		"/C/xampp/htdocs/ctc/less/style.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/styles.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/functions.php",
+		"/C/Users/funkp_000/Downloads/wordpress/wp-config.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/style.css"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wiesent",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\_tk-master",
+			"C:\\Users\\funkp_000\\Documents",
+			"C:\\xampp\\htdocs\\nadion-master\\sample",
+			"C:\\xampp\\htdocs\\nadion-master\\sample\\src",
+			"C:\\xampp\\htdocs\\respond"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ProjectEntry",
+			"newProjectForm",
+			"Projektname",
+			"project",
+			"projects",
+			"updateTeam",
+			"project",
+			"image",
+			"projectEntry",
+			"idProject",
+			"project",
+			"projects",
+			"deleteProject",
+			"update",
+			"projectname",
+			"id",
+			"team",
+			"member",
+			"memberId",
+			"$cordovaSQLite",
+			"cordovaSQLite",
+			"createNewProject",
+			"ngCordova",
+			"left",
+			"h4",
+			"h1",
+			"furhpark",
+			"project",
+			"app",
+			"App",
+			"app",
+			"Firmenname",
+			"white",
+			"transform",
+			"  ",
+			"span",
+			"-click",
+			"view1",
+			"bilderCtrl",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"musikCtrl",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"bandCtrl",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"get",
+			"\"",
+			"http",
+			"View1Ctrl",
+			"view1",
+			"stop",
+			"class",
+			"stop",
+			"Footer",
+			"describe",
+			"ctcBand",
+			"myApp",
+			"lang=\"en\" ",
+			"en",
+			"--save-dev",
+			"$ npm install",
+			"1",
+			"\", ",
+			"$ npm install ",
+			"2",
+			"1.2.x",
+			"acl546",
+			"start",
+			"drummTrainer",
+			"<p>",
+			"p",
+			"<p>",
+			"http://acl546.baders-coaching.de",
+			"database",
+			"<img src",
+			"<img style",
+			"<img",
+			"i",
+			"section",
+			"http://acl546.baders-coaching.de",
+			"http://acl546.baders-coaching.de/",
+			"<img ",
+			"category-",
+			"font",
+			"icon_bg",
+			"loginforlink",
+			"sku",
+			"li",
+			"[​IMG]",
+			"\n[​IMG]",
+			"<img class=\"mceSmilie\" title=\"Smile    :)\" src=\"http://www.musiker-board.de/styles/default/images/smilies/smile.gif\" alt=\":)\" />",
+			"container",
+			"<h2>",
+			"class=\"footer-widget",
+			"hidden",
+			"twentyten",
+			" twentyten",
+			"twentyten",
+			"weight",
+			"400",
+			"weight",
+			"10px",
+			"030305",
+			"navbar",
+			"-sm-",
+			">';\n",
+			"-sm-",
+			"font-",
+			"absolute",
+			"checkout",
+			"sm",
+			"body"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/anfrage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/project.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								862
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/projectDetails.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/newProject.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								810
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/newEntry.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2635,
+								2635
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1498.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5814,
+								5814
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8133.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5215,
+								5215
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2712,
+								2712
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1794.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/example.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/funkp_000/Documents/Projekte/RiegerundMoser/www/templates/playlists.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "riegermoser.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"contr",
+				"RiegerundMoser\\www\\js\\controllers.js"
+			],
+			[
+				"app",
+				"RiegerundMoser\\www\\js\\app.js"
+			],
+			[
+				"control",
+				"RiegerundMoser\\www\\js\\controllers.js"
+			],
+			[
+				"varia",
+				"app\\less\\variables.less"
+			],
+			[
+				"header",
+				"app\\view\\header.js"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"main",
+				"app\\less\\main.less"
+			],
+			[
+				"anim",
+				"app\\less\\animate.less"
+			],
+			[
+				"animt",
+				"app\\less\\animate.less"
+			],
+			[
+				"main.",
+				"app\\less\\main.less"
+			],
+			[
+				"anless",
+				"app\\less\\animate.less"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"stra",
+				"C:\\Users\\funkp_000\\Documents\\Projekte\\Lotse Projekt\\STRATO"
+			],
+			[
+				"styles.less",
+				"_tk-master\\styles.less"
+			],
+			[
+				"_tkfoo",
+				"_tk-master\\footer.php"
+			],
+			[
+				"footer",
+				"_tk-master\\footer.php"
+			],
+			[
+				"fun",
+				"_tk-master\\functions.php"
+			],
+			[
+				"styl",
+				"_tk-master\\styles.less"
+			],
+			[
+				"function",
+				"_tk-master\\functions.php"
+			],
+			[
+				"style",
+				"twentythirteen-child\\styles.less"
+			],
+			[
+				"foo",
+				"_tk-master\\footer.php"
+			],
+			[
+				"stlye",
+				"bader\\style.css"
+			],
+			[
+				"vari",
+				"lotsetheme\\less\\variables.less"
+			],
+			[
+				"_tkstyl",
+				"_tk-master\\styles.less"
+			],
+			[
+				"varial",
+				"_tk-master\\includes\\resources\\bootstrap\\css\\variables.less"
+			],
+			[
+				"sty",
+				"_tk-master\\styles.less"
+			],
+			[
+				"hea",
+				"_tk-master\\header.php"
+			],
+			[
+				"bootstrap.less",
+				"_tk-master\\includes\\resources\\bootstrap\\css\\bootstrap.less"
+			],
+			[
+				"s",
+				"_tk-master\\styles.less"
+			],
+			[
+				"",
+				"_tk-master\\functions.php"
+			],
+			[
+				"func",
+				"_tk-master\\functions.php"
+			],
+			[
+				"functin",
+				"_tk-master\\functions.php"
+			],
+			[
+				"buch",
+				"public_html\\bord-coaching.de\\content\\pages\\de\\buch.php"
+			],
+			[
+				"styles",
+				"twentythirteen-child\\styles.less"
+			],
+			[
+				"comments",
+				"twentythirteen\\comments.php"
+			],
+			[
+				"funct",
+				"twentythirteen-child\\functions.php"
+			],
+			[
+				"index",
+				"_tk-master\\index.php"
+			],
+			[
+				"he",
+				"twentythirteen-child\\header.php"
+			],
+			[
+				"init",
+				"public\\src\\init.js"
+			],
+			[
+				"play",
+				"public\\src\\player.js"
+			],
+			[
+				"ene",
+				"public\\src\\enemy.js"
+			],
+			[
+				"learn",
+				"public\\src\\learningtrigger.js"
+			],
+			[
+				"intro",
+				"public\\src\\introtrigger.js"
+			],
+			[
+				"pick",
+				"public\\src\\pickup.js"
+			],
+			[
+				"trigger",
+				"public\\src\\testtrigger.js"
+			],
+			[
+				"my",
+				"public\\src\\mygame.js"
+			],
+			[
+				"h",
+				"public\\src\\hitbox.js"
+			],
+			[
+				"level",
+				"public\\src\\level-1.js"
+			],
+			[
+				"climb",
+				"public\\src\\climbtrigger.js"
+			],
+			[
+				"myga",
+				"public\\src\\mygame.js"
+			],
+			[
+				"testtri",
+				"htdocs\\nadion-master\\sample\\src\\testtrigger.js"
+			],
+			[
+				"player.js",
+				"htdocs\\nadion-master\\BA Game\\src\\player.js"
+			],
+			[
+				"wow",
+				"tp-web\\js\\wow.min.js"
+			],
+			[
+				"testtr",
+				"htdocs\\nadion-master\\sample\\src\\testtrigger.js"
+			],
+			[
+				"resondanfrage",
+				"htdocs\\respond\\themes\\riegermoser\\layouts\\anfrageFormular.html"
+			],
+			[
+				"respondhom",
+				"htdocs\\respond\\themes\\advanced\\layouts\\home.html"
+			],
+			[
+				"respondstyle.less",
+				"htdocs\\respond\\themes\\riegermoser\\styles\\style.less"
+			],
+			[
+				"resstyle.less",
+				"htdocs\\respond\\themes\\riegermoser\\styles\\style.less"
+			],
+			[
+				"anfrageform",
+				"htdocs\\respond\\themes\\riegermoser\\layouts\\anfrageFormular.html"
+			],
+			[
+				"anfr",
+				"htdocs\\Riegerundmoser alte Seite\\anfrageformular.htm"
+			],
+			[
+				"germanindex",
+				"htdocs\\german\\index.php"
+			],
+			[
+				"de_",
+				"htdocs\\german\\de\\de_mail.php"
+			],
+			[
+				"mailjs",
+				"htdocs\\german\\js\\de_mail.js"
+			],
+			[
+				"ar",
+				"htdocs\\german\\ar_mail.php"
+			],
+			[
+				"schoe",
+				"htdocs\\german\\schoen-abnehmen.php"
+			],
+			[
+				"proton",
+				"htdocs\\german\\krebs-protonen.php"
+			],
+			[
+				"biolo",
+				"htdocs\\german\\krebs-biologisch.php"
+			],
+			[
+				"side",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"hotel",
+				"htdocs\\german\\service-hotel.php"
+			],
+			[
+				"icsi",
+				"htdocs\\german\\kind-icsi.php"
+			],
+			[
+				"kind",
+				"htdocs\\german\\kind.php"
+			],
+			[
+				"haare",
+				"htdocs\\german\\schoen-haarentfernung.php"
+			],
+			[
+				"abn",
+				"htdocs\\german\\schoen-abnehmen.php"
+			],
+			[
+				"knochen",
+				"htdocs\\german\\knochen-huefte.php"
+			],
+			[
+				"cyber",
+				"htdocs\\german\\krebs-cyberknife.php"
+			],
+			[
+				"dolm",
+				"htdocs\\german\\service-dolm.php"
+			],
+			[
+				"basic",
+				"htdocs\\german\\service-basic.php"
+			],
+			[
+				"service",
+				"htdocs\\german\\service-comfort.php"
+			],
+			[
+				"haar",
+				"htdocs\\german\\schoen-haarpflanzen.php"
+			],
+			[
+				"partner",
+				"htdocs\\german\\partner.php"
+			],
+			[
+				"haa",
+				"htdocs\\german\\schoen-haarpflanzen.php"
+			],
+			[
+				"about",
+				"htdocs\\german\\about.php"
+			],
+			[
+				"b-serv",
+				"htdocs\\german\\bottombar\\b-service.php"
+			],
+			[
+				"checku",
+				"htdocs\\german\\checkup.php"
+			],
+			[
+				"check",
+				"htdocs\\german\\checkup.html"
+			],
+			[
+				"checkup",
+				"htdocs\\g\\checkup.php"
+			],
+			[
+				"mail.js",
+				"htdocs\\german\\js\\mail.js"
+			],
+			[
+				"sevice-lim",
+				"htdocs\\german\\service-lim.php"
+			],
+			[
+				"germansi",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"germanhotel",
+				"htdocs\\german\\service-hotel.php"
+			],
+			[
+				"ar_m",
+				"htdocs\\german\\ar_mail.php"
+			],
+			[
+				"germanside",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"index.php",
+				"htdocs\\german\\index.php"
+			],
+			[
+				"style.less",
+				"ctc-redesign\\less\\style.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"selected_items":
+		[
+			[
+				"ctc",
+				"C:\\Users\\funkp_000\\Documents\\Projekte\\ctc-2015.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\funkp_000\\Documents\\Projekte\\ctc-2015.sublime-project"
+			],
+			[
+				"word",
+				"C:\\xampp\\htdocs\\test_lav\\test\\public\\src\\wordpress.sublime-project"
+			],
+			[
+				"b",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"demo",
+				"C:\\Program Files\\Sublime Text 3\\demos.sublime-project"
+			],
+			[
+				"wws",
+				"C:\\xampp\\htdocs\\wws\\wws.sublime-workspace"
+			],
+			[
+				"bach",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"spass",
+				"C:\\xampp\\htdocs\\netz\\spass.sublime-project"
+			],
+			[
+				"bache",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"wor",
+				"C:\\xampp\\htdocs\\test_lav\\test\\public\\src\\wordpress.sublime-project"
+			],
+			[
+				"bachelro",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"ba",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"bac",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"sp",
+				"C:\\xampp\\htdocs\\netz\\spass.sublime-project"
+			],
+			[
+				"sa",
+				"C:\\xampp\\htdocs\\netz\\spass.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 502.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>deviantArt Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+  <body class="loggedOut theme-green">
+		<div class="bar">
+	  	<div class="container">
+				<svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="25.8 20.1 238.4 109.2" xml:space="preserve">
+					<path class="dalogo" d="M109.4,105.1V64.6c-27,7.7-37,24.5-39.9,40.5H109.4L109.4,105.1z M141.4,42c1.2,0,2.4,0,3.6,0c32.9,0,62.7,8.4,84.3,22
+						c21.6,13.6,34.9,32.3,34.9,53c0,4.2-0.5,8.3-1.6,12.3h-5.7h-36.5h-71.9V122v-16.8V67.7c13.1,0.3,23.6,1.9,32,4.5v32.9h39.9
+						c-4-21.7-20.9-44.8-75.5-44.8c-1.2,0-2.4,0-3.6,0v44.8v24.1h-32H69.6H33.8h-6.4c-1-4-1.6-8.1-1.6-12.3c0-20.7,13.3-39.5,34.9-53
+						c13.5-8.5,30.1-14.9,48.7-18.6V23.1c10.3-1.8,21.1-2.8,32-3L141.4,42L141.4,42z" />
+				</svg>
+				<ul class="nav navbar-nav navbar-right loggedIn">
+					<li class="dropdown theme-switcher-button">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+						<ul class="dropdown-menu theme-switcher" role="menu">
+							<li><a href="#" class="theme-green">Green</a></li>
+							<li><a href="#" class="theme-red">Red</a></li>
+							<li><a href="#" class="theme-orange">Orange</a></li>
+							<li><a href="#" class="theme-blue">Blue</a></li>
+							<li><a href="#" class="theme-red-green">Red/Green</a></li>
+							<li><a href="#" class="theme-red-orange">Red/Orange</a></li>
+							<li><a href="#" class="theme-brown">Brown</a></li>
+							<li><a href="#" class="theme-fur">Fur</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account <b class="caret"></b></a>
+						<ul class="dropdown-menu" id="loginFormMenu" role="menu">
+							<li><a href="profile.html">View</a></li>
+							<li><a href="messages.html">Messages</a></li>
+							<li><a href="upload.html">Upload</a></li>
+							<li><a href="journal.html">Add Journal Entry</a></li>
+							<li class="divider"></li>
+							<li><a href="#logOut" class="logOut">Log Out</a></li>
+						</ul>
+					</li>
+					<li><a href="preferences.html"><span class="glyphicon glyphicon-cog"></span> Preferences</a></li>
+				</ul>
+				<form action="#" id="loginForm" class="loggedOut" method="post" accept-charset="UTF-8">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown theme-switcher-button">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+							<ul class="dropdown-menu theme-switcher" role="menu">
+								<li><a href="#" class="theme-green">Green</a></li>
+								<li><a href="#" class="theme-red">Red</a></li>
+								<li><a href="#" class="theme-orange">Orange</a></li>
+								<li><a href="#" class="theme-blue">Blue</a></li>
+								<li><a href="#" class="theme-red-green">Red/Green</a></li>
+								<li><a href="#" class="theme-red-orange">Red/Orange</a></li>
+								<li><a href="#" class="theme-brown">Brown</a></li>
+								<li><a href="#" class="theme-fur">Fur</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-off"></span> Login <b class="caret"></b></a>
+							<ul class="dropdown-menu" id="login-menu" role="menu">
+								<li class="form-group"><input type="text" class="form-control" id="loginID" placeholder="DeviantID"></li>
+								<li class="form-group"><input type="password" class="form-control" id="loginPassword" placeholder="Password"></li>
+								<li><label><input type="checkbox"> Remeber Me</label></li>
+								<li class="form-group"><button type="button" id="logIn" class="btn btn-success btn-block">Login</button></li>
+								<li class="divider"></li>
+								<li class="form-group"><a href="register.html" class="btn btn-info btn-block">Register?</a></li>
+							</ul>
+						</li>
+						<li><a href="tour.html"><span class="typcn typcn-globe-outline"></span> Tour</a></li>
+					</ul>
+				</form>
+  		</div>
+  	</div>
+
+		<nav class="navbar navbar-default navbar-top" role="navigation" id="navigation-primary">
+			<a class="navbar-brand" href="#">
+				<svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="25.8 20.1 238.4 109.2" xml:space="preserve">
+				<path class="dalogo" d="M109.4,105.1V64.6c-27,7.7-37,24.5-39.9,40.5H109.4L109.4,105.1z M141.4,42c1.2,0,2.4,0,3.6,0c32.9,0,62.7,8.4,84.3,22
+					c21.6,13.6,34.9,32.3,34.9,53c0,4.2-0.5,8.3-1.6,12.3h-5.7h-36.5h-71.9V122v-16.8V67.7c13.1,0.3,23.6,1.9,32,4.5v32.9h39.9
+					c-4-21.7-20.9-44.8-75.5-44.8c-1.2,0-2.4,0-3.6,0v44.8v24.1h-32H69.6H33.8h-6.4c-1-4-1.6-8.1-1.6-12.3c0-20.7,13.3-39.5,34.9-53
+					c13.5-8.5,30.1-14.9,48.7-18.6V23.1c10.3-1.8,21.1-2.8,32-3L141.4,42L141.4,42z" />
+				</svg>
+			</a>
+			<div class="btn-group loggedIn user-menu pull-right">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<span class="glyphicon glyphicon-user"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="profile.html">View</a></li>
+					<li><a href="messages.html">Messages</a></li>
+					<li><a href="upload.html">Upload</a></li>
+					<li><a href="journal.html">Add Journal Entry</a></li>
+					<li class="divider"></li>
+					<li><a href="#logOut" class="logOut">Log Out</a></li>
+				</ul>
+				<a href="preferences.html" class="btn btn-default"><span class="glyphicon glyphicon-cog"></span></a>
+			</div>
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="index.html"><span class="glyphicon glyphicon-th"></span> Gallery</a></li>
+						<li><a href="groups.html"><span class="glyphicon glyphicon-map-marker"></span> Groups</a></li>
+						<li><a href="shop.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shop</a></li>
+					</ul>
+					<div class="col-sm-5 pull-right navbar-search">
+						<form class="form-inline" id="search" role="search">
+							<div class="input-group">
+								<input type="Search" data-toggle="dropdown" value="" id="search-input" placeholder="Search" class="form-control" />
+								<ul class="dropdown-menu hidden pointer" id="search-suggest" role="menu">
+
+								</ul>
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+										<span class="glyphicon glyphicon-wrench"></span>
+										<span class="caret"></span>
+										<span class="sr-only">Toggle Dropdown</span>
+									</button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="#">Here</a></li>
+										<li><a href="#">Gallery only</a></li>
+										<li><a href="#">Groups only</a></li>
+										<li><a href="#">Shop only</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Everywhere</a></li>
+									</ul>
+									<button type="button" class="btn btn-success" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+
+		<div class="container" id="profile">
+			<div class="row">
+				<div class="col-xs-12 banner-wrap">
+					<img class="banner-profile" src="img/profile/profile-img.png" alt="" title="">
+					<img class="banner" src="img/profile/banner.png" alt="" title="">
+					<span class="banner-name"><h3>babyinblue</h3></span>
+				</div>
+			</div>
+
+			<div class="row" id="navigation-secondary">
+				<div class="col-xs-12">
+					<nav class="navbar navbar-default navbar-static-top">
+						<div class="navbar-header navbar-fixed-top">
+							<a class="navbar-brand" href="#">babyinblue</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+							<li><a href="gallery.html"><span class="glyphicon glyphicon-th"></span> Gallery</a></li>
+							<li><a href="journal.html"><span class="glyphicon glyphicon-pencil"></span> Journal</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><span class="glyphicon glyphicon-eye-open"></span> Watch</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Message</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div id="grid" class="profile-info">
+				<div class="iso-item">
+					<div class="item-c-2">
+						<h4>Member</h4>
+						<p>I am a Portrait Photographer
+						babyinblue <br>
+						32/Female/Turkey <br>
+						Birthday 02/03/1981 <br>
+						Why I Am Here ?
+						No reason given yet</p>
+						<p>Deviant since Jul 8, 2006</p>
+						<hr>
+						<h4>Watchers</h4>
+						<p class="watchers">
+							<a href="#">bedrix</a>, <a href="#">bozkus</a>, <a href="#">Aytan Avantgarde</a>, <a href="#">RANASULEMAN</a>, <a href="#">capnjacqui</a>, <a href="#">BlairBolton</a>, <a href="#">GrandGuignolBudapest</a>, <a href="#">DHVerlander</a>, <a href="#">Agganist</a>, <a href="#">StrikePhotography</a> <a href="#">redwolf</a>, <a href="#">ZewarFadhil</a>, <a href="#">emreozirmak</a>, <a href="#">peterle28</a>, <a href="#">BokehLight</a>, <a href="#">InfinalOne</a>, <a href="#">hanabeldira</a>, <a href="#">magdaelsawi</a>, <a href="#">minninnewah</a>, <a href="#">ValosBlur</a>, <a href="#">ZewarFadhil</a>
+						</p>
+					</div>
+				</div>
+				<div class="iso-item">
+					<div class="item-c-2">
+						<h4>Latest Deviation</h4>
+						<img alt="…" src="img/profile/journal1.jpg" class="profile-widget" />
+						<h5>This is a really funny and awesome dummy text.</h5>
+						<hr>
+						<img alt="…" src="img/profile/journal2.jpg" class="profile-widget" />
+						<h5>This dummy text is even way more awesomer than the one above.</h5>
+					</div>
+				</div>
+				<div class="iso-item">
+					<div class="item-c-2">
+						<h4>Comments</h4>
+						<ul class="media-list">
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c1.png"></a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<form role="form">
+										<div class="form-group">
+											<label class="sr-only" for="comment">Comment</label>
+											<textarea class="form-control" id="comment" rows="3" placeholder="Want to comment?"></textarea>
+										</div>
+										<button type="submit" class="btn btn-xs btn-default pull-right">Post Comment</button>
+									</form>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c2.jpg"> </a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<p class="well well-sm">Wow!~ I really love the colors here. Very simple, but effective when you see that it's clean with no sketchy lines or messiness XD</p>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c3.png"></a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<p class="well well-sm">Love it, I really do! :)</p>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c4.gif"></a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<p class="well well-sm">That's beautiful</p>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c5.jpg"></a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<p class="well well-sm">I just love your use of vibrant colors!~</p>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="#"><img alt="…" src="img/profile/c2.jpg"></a>
+								<div class="media-body">
+									<div class="tria"></div>
+									<p class="well well-sm">OMG this is beautiful!~</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="iso-item">
+					<div class="item-c-2">
+						<h4>Featured Art</h4>
+						<img alt="…" src="img/profile/journal3.jpg" class="profile-widget" />
+						<h5>Much dummy, so wow, much doge so awesome</h5>
+					</div>
+				</div>
+				<div class="iso-item">
+					<div class="item-c-2">
+						<h4>Visitors</h4>
+						<p class="watchers">
+							<a href="#">bedrix</a>, <a href="#">bozkus</a>, <a href="#">Aytan Avantgarde</a>, <a href="#">RANASULEMAN</a>, <a href="#">capnjacqui</a>, <a href="#">BlairBolton</a>, <a href="#">GrandGuignolBudapest</a>, <a href="#">DHVerlander</a>, <a href="#">Agganist</a>, <a href="#">StrikePhotography</a> <a href="#">redwolf</a>, <a href="#">ZewarFadhil</a>, <a href="#">emreozirmak</a>, <a href="#">peterle28</a>, <a href="#">BokehLight</a>, <a href="#">InfinalOne</a>, <a href="#">hanabeldira</a>, <a href="#">magdaelsawi</a>, <a href="#">minninnewah</a>, <a href="#">ValosBlur</a>, <a href="#">ZewarFadhil</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<hr />
+
+			<div class="container">
+				<h5>&copy; 2014 deviantART. All rights reserved</h5>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Etiquette</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Developers</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">Premium Membership</a></li>
+						<li><a href="#">Tour</a></li>
+						<li><a href="#">Help &amp; FAQ</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+    <script src="js/json2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/jquery.visible.min.js"></script>
+		<script src="js/jstorage.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

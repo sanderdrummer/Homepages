@@ -1,0 +1,19 @@
+
+<div class="news wow fadeInUp" ng-repeat="newsEntry in news | filter:newsFilterFunction">
+	<h2>{{newsEntry.title}}</h2>
+	<div ng-show="newsEntry.img" class="imagecontainer">
+		<img src="{{newsEntry.img}}" alt="newsImage{{newsEntry.title}}">
+	</div>
+	<div class="txt">
+		{{newsEntry.txt}}
+		<div class="more"><a href="{{newsEntry.link}}">mehr lesen</a></div>
+	</div>
+	
+	
+</div>
+
+<div class="filter box">
+	<a ng-model="newsFilter" ng-click="setFilter('alle')">Alle</a>
+	<a ng-model="newsFilter" ng-click="setFilter('news')">News</a>
+	<a ng-model="newsFilter" ng-click="setFilter('gig')">Gigs</a>
+</div>
