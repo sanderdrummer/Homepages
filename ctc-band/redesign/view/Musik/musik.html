@@ -1,0 +1,39 @@
+<div class="content">
+	<!-- BILDER -->
+	<div class="floater wide" ng-click="selectImage(image)" style="background-image:url({{image}}); background-size:cover; " ng-repeat="image in imageList">
+	</div>
+	<div class="clear"></div>
+
+
+	<!-- VIDEOS -->
+	<div class="floater wide" ng-click="selectImage(video)" ng-repeat="video in videos">
+		<img src={{video.thumb}}>
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+<div class="filter box">
+	<a ng-model="newsFilter" ng-click="setFilter('alle')">Alles</a>
+	<a ng-model="newsFilter" ng-click="setFilter('news')">Bilder</a>
+	<a ng-model="newsFilter" ng-click="setFilter('gig')">Videos</a>
+	<a ng-model="newsFilter" ng-click="setFilter('gig')">Musik</a>
+</div>
+
+<div ng-show="showLightbox" class="lightbox wow fadeIn" data-wow-duration="0.3s">
+	<img ng-click="closeLightbox()" src="{{selectedImage}}">
+	<div class="player filter box">
+		<a ng-click="closeLightbox()"><i  class="fa fa-times"></i></a>
+		<a ng-click="toLeft()"><i class="fa fa-angle-left"></i></a>
+		<a ng-click="toRight()"><i class="fa fa-angle-right"></i></a>
+	</div>
+</div>
+
+<div ng-show="showVideoPlayer" class="lightbox wow fadeIn" data-wow-duration="0.5s">
+	<div ng-bind-html="youtubeFrame"></div>
+	<div class="player filter box">
+		<a ng-click="closeLightbox()"><i  class="fa fa-times"></i></a>
+		<a ng-click="toLeft()"><i class="fa fa-angle-left"></i></a>
+		<a ng-click="toRight()"><i class="fa fa-angle-right"></i></a>
+	</div>
+</div>
