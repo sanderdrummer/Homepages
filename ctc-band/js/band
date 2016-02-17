@@ -1,6 +1,0 @@
-
-$(document).ready(function(){
-	var h = $('#hero').css("height").replace("px","");
-	h=h*0.3;
-	$('#hero>article').css({"padding-top":h+"px"})
-})
