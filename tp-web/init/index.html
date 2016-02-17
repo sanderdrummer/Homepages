@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tobias Pickel</title>
+        <meta name="description" content="Tobias Pickel, Medieninformatiker mit Schwerpunkt Javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="container" data-ng-app="Resume">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="grid">
+            <div class="col-8">
+                <h1>Tobias Pickel</h1>
+                <h2>Medieninformatiker</h2>
+            </div>
+            <div class="col-4">
+                <p>Virchowstr. 16/1</p>
+                <p>89075 Ulm</p>
+                <p><i class="fa fa-phone"></i> 01718125202</p>
+                <p><i class="fa fa-envelope"></i> pickeltobias@googlemail.com</p>
+                <p><i class="fa fa-laptop"></i> vita.tp-itservice.com</p>
+            </div>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a class="menu-item" href="#/Lebenslauf">
+                        Lebenslauf
+                    </a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#/Portfolio">  
+                        Portfolio
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section data-ng-view></section>
+        <footer class="m-t-4">
+           
+         </footer>
+        
+        <link href='https://fonts.googleapis.com/css?family=Raleway:300|Lato:300,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-route.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

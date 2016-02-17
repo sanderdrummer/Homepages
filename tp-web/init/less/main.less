@@ -1,0 +1,120 @@
+@import 'reset.less';
+@import 'variables.less';
+@import 'typo.less';
+@import 'grid.less';
+@import 'components.less';
+
+
+header{
+    margin-top: 3rem;
+    h2{
+        color:@grey3;
+    }
+    p,h1,h2{
+        margin-top: 0px;
+    }
+    p{
+        text-align: right;
+    }
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px @grey3
+}
+
+nav{
+    ul.menu{
+        .clearfix();
+        li{
+            float:left; 
+            padding-right: 1.5rem;
+            font-size: 1 * @scale * 1rem;
+            a{
+                &.active{
+                    color:@highlightHover;
+                }
+            }
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 1040px) {
+    header{
+        p{
+            text-align: left;
+        }
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

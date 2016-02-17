@@ -1,0 +1,18 @@
+<ul>
+	<li data-ng-click="show = !show" class="grid project m-t-2" data-ng-repeat="project in ::projects">
+		<div class="col-3">
+			<img data-ng-src="{{::project.thumb}}" alt="{{::project.title}}">
+		</div>
+		<div class="col-9">
+			<h2 class="hug">{{::project.title}}</h2>
+			<p>{{::project.type}}</p>
+			<ul data-ng-if="show">
+				<li><p>{{::project.description}}</p></li>
+			  	<li class="m-t-1" data-ng-repeat="image in ::project.images"><img data-ng-src="{{::image.url}}"></li>
+				<li data-ng-if="project.url"><p><a target="_blank" data-ng-href="{{::project.url}}">mehr</a></p></li>
+			</ul>
+		</div>
+
+	</li>
+</ul>
+<div modal class="hidden"></div>
