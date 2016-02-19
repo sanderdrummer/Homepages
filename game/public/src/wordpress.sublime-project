@@ -1,0 +1,45 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\twentythirteen-child"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\twentythirteen"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\lotsetheme"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\ctc"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\_tk-master"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\public_html"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\all-in-one-event-calendar\\public\\themes-ai1ec\\bader"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\woocommerce\\templates"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wiesent"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\drumblog"
+		}
+	]
+}

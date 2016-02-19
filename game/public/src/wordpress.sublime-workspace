@@ -1,0 +1,1622 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"row",
+				"rowdeciderswitch"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"entry",
+				"entry-content"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"cate",
+				"category-faq"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pan",
+				"panel-heading"
+			],
+			[
+				"LOTSE",
+				"lotse"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"pna",
+				"panel-footer"
+			],
+			[
+				"page",
+				"page-title"
+			],
+			[
+				"add",
+				"add_to_cart_button"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"container",
+				"container-p"
+			],
+			[
+				"si",
+				"site-footer"
+			],
+			[
+				"foote",
+				"footer-buttons"
+			],
+			[
+				"h1",
+				"h1	Tag"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"an",
+				"anim-fade"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"style",
+				"style	Tag"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"sub",
+				"sub-menu"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"link",
+				"link-hover"
+			],
+			[
+				"font-",
+				"font-family-base"
+			],
+			[
+				"height",
+				"max-height"
+			],
+			[
+				"In",
+				"IntroTrigger"
+			],
+			[
+				"lo",
+				"loseLevel"
+			],
+			[
+				"walk",
+				"walkSpeed"
+			],
+			[
+				"ene",
+				"enemyType"
+			],
+			[
+				"hit",
+				"hitbox"
+			],
+			[
+				"is",
+				"instanceof"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"cha",
+				"challengetype"
+			],
+			[
+				"jump",
+				"jumping"
+			],
+			[
+				"open",
+				"openMap"
+			],
+			[
+				"start",
+				"startstop"
+			],
+			[
+				"cons",
+				"consumeEvent"
+			],
+			[
+				"ar",
+				"airborneLeft"
+			],
+			[
+				"fall",
+				"falling"
+			],
+			[
+				"font-s",
+				"font-size-base"
+			],
+			[
+				"del",
+				"deltaMagnitudeDiff"
+			],
+			[
+				"d",
+				"deltaMagnitudeDiff"
+			],
+			[
+				"star",
+				"startplane"
+			],
+			[
+				"he",
+				"headerbar"
+			],
+			[
+				"Get",
+				"GetString"
+			],
+			[
+				"H",
+				"height"
+			],
+			[
+				"gate",
+				"gatetext"
+			],
+			[
+				"rec",
+				"recover"
+			],
+			[
+				"re",
+				"recovering"
+			],
+			[
+				"tim",
+				"climb_timer"
+			],
+			[
+				"chal",
+				"challengeTimeout"
+			],
+			[
+				"ch",
+				"challengeTimer"
+			],
+			[
+				"s",
+				"startchallenge"
+			],
+			[
+				"v",
+				"velocity"
+			],
+			[
+				"wal",
+				"walk_velocity"
+			],
+			[
+				"startc",
+				"startchallenge"
+			],
+			[
+				"wa",
+				"walkLeft"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"pla",
+				"playerStates"
+			],
+			[
+				"pl",
+				"playerStates"
+			],
+			[
+				"I",
+				"IntroTrigger"
+			],
+			[
+				"pi",
+				"pickupOn"
+			],
+			[
+				"show",
+				"showtext"
+			],
+			[
+				"on",
+				"onReady"
+			],
+			[
+				"intr",
+				"introtext"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"nex",
+				"next"
+			],
+			[
+				"pre",
+				"prev"
+			],
+			[
+				"prev",
+				"prevname"
+			],
+			[
+				"next",
+				"nextpage"
+			],
+			[
+				"obj",
+				"objname"
+			],
+			[
+				"g",
+				"gameobject"
+			],
+			[
+				"name",
+				"namewidth"
+			],
+			[
+				"Name",
+				"namewidth"
+			],
+			[
+				"nam",
+				"namewidth"
+			],
+			[
+				"comp",
+				"computer"
+			],
+			[
+				"clim",
+				"climb_timer"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"cli",
+				"climbup"
+			],
+			[
+				"cl",
+				"climbing"
+			],
+			[
+				"stop",
+				"stopclimbing"
+			],
+			[
+				"step",
+				"stepdown"
+			],
+			[
+				"ge",
+				"gender"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-top-r",
+				"border-top-left-radius"
+			],
+			[
+				"go",
+				"goLeft"
+			],
+			[
+				"stp",
+				"stepup"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"po",
+				"prototype"
+			],
+			[
+				"game",
+				"game_state"
+			],
+			[
+				"touch",
+				"touch0"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"beein",
+				"beeinflussung"
+			],
+			[
+				"play",
+				"playerid"
+			],
+			[
+				"ans",
+				"answer"
+			],
+			[
+				"que",
+				"questions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/functions.php",
+			"settings":
+			{
+				"buffer_size": 9542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer.php",
+			"settings":
+			{
+				"buffer_size": 16246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 1015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/searchform.php",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/styles.less",
+			"settings":
+			{
+				"buffer_size": 33615,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/header.php",
+			"settings":
+			{
+				"buffer_size": 6776,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"selected_items":
+		[
+			[
+				"ss",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssless",
+				"Set Syntax: LESS"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ss c",
+				"Set Syntax: C#"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"toggle",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggl",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ss bib",
+				"Set Syntax: BibTeX"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"lin",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"sslate",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"toggle   s",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 768.0
+	},
+	"console":
+	{
+		"height": 234.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/includes",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/includes/resources",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/includes/resources/bootstrap",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/includes/resources/bootstrap/css"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/styles.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/styles.less",
+		"/C/xampp/htdocs/ctc/less/style.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/styles.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/functions.php",
+		"/C/Users/funkp_000/Downloads/wordpress/wp-config.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/content.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/content-single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/archive.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/cart/cart.php",
+		"/C/Users/funkp_000/Downloads/bootstrap-3.2.0/less/variables.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/sidebar.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/content-product.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/styles.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/content-single-product.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/resources/bootstrap/css/variables.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/drumblog/includes/resources/bootstrap/css/variables.less",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-content/plugins/my-page-order/mypageorder-sv-SE.mo",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/checkout/form-checkout.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/checkout/review-order.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/styles.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/styles.css",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/less/font-awesome/font-awesome.less",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/font/fontawesome-webfont.svg",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/activation.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer-faq",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/landing-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/js/skip-link-focus-fix.js",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/includes/resources/bootstrap/css/variables.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content-single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/archive.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/content-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/single.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/landing-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/includes/resources/bootstrap/css/navbar.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/resources/bootstrap/css/button-groups.less",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/less/style.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/comments.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/single-product-reviews.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variable.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/single-product.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/wiesent/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/content-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/content.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/archive.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/comments.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/cart/cart.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/cart/cart-totals.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/functions.php",
+		"/C/xampp/htdocs/ctc/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lotsetheme/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/header.php",
+		"/C/xampp/htdocs/ctc/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lotsetheme/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/toggles",
+		"/C/xampp/htdocs/public_html/lotse-coaching.de/content/theme/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/checkout/form-pay.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/checkout/form-pay.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/loop/loop-end.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/cart/cart-item-data.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/loop/loop-start.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/includes/resources/bootstrap/css/panels.less",
+		"/C/xampp/htdocs/public_html/lot-coaching.de/old/warum_wirkt_lot.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/woocommerce.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lotsetheme/less/responsive-utilities.less",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-content/plugins/role-scoper/role_usage_rs.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/woocmmerce/checkout/review-order.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen/rtl.css",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/carousel.html",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/sidebarmenu.html",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/checkout/form-billing.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/woocommerce/checkout/form-shipping.php",
+		"/C/xampp/htdocs/public_html/lotse-coaching.de/content/pages/de/buch.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-single-product.php",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-includes/functions.wp-styles.php",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-includes/functions.wp-scripts.php",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-content/themes/default/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/style.css",
+		"/C/xampp/htdocs/wordpress/.htaccess",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/lot-page.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lot/styles.less",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lot/styles.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lot/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lot/header.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lot/footer.php",
+		"/C/Users/funkp_000/Downloads/wordpress-4.0/wordpress/wp-config.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/agenda-widget.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/calendar.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/event-excerpt.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/navigation.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/pagination.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/subscribe-buttons.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/tags.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/views_dropdown.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/weekday.base.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/agenda-buttons.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentythirteen-child/styles.css",
+		"/C/xampp/htdocs/public_html/studentenportal.lotse-coaching.de/wp-includes/template-loader.php",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/agenda.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/vortex/twig/agenda.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/categories.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/plugins/all-in-one-event-calendar/public/themes-ai1ec/bader/twig/datepicker_link.twig",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/themes-ai1ec/gamma/style.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/themes-ai1ec/bader/style.css",
+		"/C/xampp/htdocs/public_html/bord-coaching.de/content/theme/footer.php",
+		"/C/xampp/htdocs/public_html/lot-coaching.de/content/theme/footer.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/lotsetheme/less/variables.less"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wiesent",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\_tk-master",
+			"C:\\Users\\funkp_000\\Documents",
+			"C:\\xampp\\htdocs\\nadion-master\\sample",
+			"C:\\xampp\\htdocs\\nadion-master\\sample\\src",
+			"C:\\xampp\\htdocs\\respond"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"icon_bg",
+			"loginforlink",
+			"sku",
+			"li",
+			"[​IMG]",
+			"\n[​IMG]",
+			"<img class=\"mceSmilie\" title=\"Smile    :)\" src=\"http://www.musiker-board.de/styles/default/images/smilies/smile.gif\" alt=\":)\" />",
+			"container",
+			"<h2>",
+			"class=\"footer-widget",
+			"hidden",
+			"twentyten",
+			" twentyten",
+			"twentyten",
+			"weight",
+			"400",
+			"weight",
+			"10px",
+			"030305",
+			"navbar",
+			"-sm-",
+			">';\n",
+			"-sm-",
+			"font-",
+			"absolute",
+			"checkout",
+			"sm",
+			"body",
+			"navbar",
+			"content-padder",
+			"id=\"content\"",
+			"entry",
+			"faq",
+			"entry",
+			"faq",
+			"255",
+			"collapseThree",
+			"collapseTwoNewsletter",
+			"collapseTwo",
+			"collapseOne",
+			"accordion",
+			"pfc",
+			"lighten(@blue, 15%)",
+			"lightblue",
+			"break",
+			"navbar",
+			"green",
+			"red",
+			"ai1",
+			"active",
+			".anim",
+			"content",
+			"kommentieren",
+			"navba",
+			"navigation",
+			"button",
+			"footerKontakt",
+			"site-footer",
+			"footer",
+			"lotsebadercommentthis",
+			"id=\"content\"",
+			"landing",
+			"h3",
+			"main-content",
+			"product-cate",
+			" width: @container-sm;",
+			".category-faq",
+			"categ",
+			"col-sm-3",
+			"sm",
+			"page-header",
+			"Produktbeschreibung",
+			"Footer",
+			".more-link",
+			"BADER",
+			"control",
+			"tr",
+			"d>",
+			"h>",
+			"tr",
+			"td>",
+			"th>",
+			"tr",
+			"table",
+			"class=\"",
+			"td",
+			"dd",
+			"dt",
+			"tr",
+			"<th",
+			"th",
+			"thead",
+			"table",
+			"footer",
+			"back-to",
+			"li",
+			"<tr>",
+			"panel",
+			"column",
+			"row",
+			"border",
+			".box-shadow(0 1px 1px rgba(0,0,0,.05));",
+			"</a>",
+			"<a hre",
+			"<p>",
+			"</p>",
+			"color: lighten(",
+			"color: lighten(@green, 20%);",
+			"color:",
+			"color",
+			"10",
+			"red",
+			"lightblue",
+			"green",
+			"panel",
+			"width:",
+			"width:459",
+			"max-w",
+			"wp-content/t",
+			"wp-content",
+			"nav",
+			"@blue",
+			"5",
+			"blue",
+			"!important",
+			";",
+			"!important",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6489,
+								6489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5858.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10776,
+								10776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/sidebar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/searchform.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/styles.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3002,
+								3002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 6203.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/_tk-master/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4891,
+								4891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 234.0,
+						"translation.y": 2088.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wordpress.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"styles.less",
+				"_tk-master\\styles.less"
+			],
+			[
+				"_tkfoo",
+				"_tk-master\\footer.php"
+			],
+			[
+				"footer",
+				"_tk-master\\footer.php"
+			],
+			[
+				"fun",
+				"_tk-master\\functions.php"
+			],
+			[
+				"header",
+				"_tk-master\\header.php"
+			],
+			[
+				"styl",
+				"_tk-master\\styles.less"
+			],
+			[
+				"function",
+				"_tk-master\\functions.php"
+			],
+			[
+				"style",
+				"twentythirteen-child\\styles.less"
+			],
+			[
+				"foo",
+				"_tk-master\\footer.php"
+			],
+			[
+				"stlye",
+				"bader\\style.css"
+			],
+			[
+				"vari",
+				"lotsetheme\\less\\variables.less"
+			],
+			[
+				"_tkstyl",
+				"_tk-master\\styles.less"
+			],
+			[
+				"varial",
+				"_tk-master\\includes\\resources\\bootstrap\\css\\variables.less"
+			],
+			[
+				"sty",
+				"_tk-master\\styles.less"
+			],
+			[
+				"hea",
+				"_tk-master\\header.php"
+			],
+			[
+				"bootstrap.less",
+				"_tk-master\\includes\\resources\\bootstrap\\css\\bootstrap.less"
+			],
+			[
+				"s",
+				"_tk-master\\styles.less"
+			],
+			[
+				"",
+				"_tk-master\\functions.php"
+			],
+			[
+				"func",
+				"_tk-master\\functions.php"
+			],
+			[
+				"functin",
+				"_tk-master\\functions.php"
+			],
+			[
+				"buch",
+				"public_html\\bord-coaching.de\\content\\pages\\de\\buch.php"
+			],
+			[
+				"styles",
+				"twentythirteen-child\\styles.less"
+			],
+			[
+				"comments",
+				"twentythirteen\\comments.php"
+			],
+			[
+				"funct",
+				"twentythirteen-child\\functions.php"
+			],
+			[
+				"index",
+				"_tk-master\\index.php"
+			],
+			[
+				"he",
+				"twentythirteen-child\\header.php"
+			],
+			[
+				"init",
+				"public\\src\\init.js"
+			],
+			[
+				"play",
+				"public\\src\\player.js"
+			],
+			[
+				"ene",
+				"public\\src\\enemy.js"
+			],
+			[
+				"learn",
+				"public\\src\\learningtrigger.js"
+			],
+			[
+				"intro",
+				"public\\src\\introtrigger.js"
+			],
+			[
+				"pick",
+				"public\\src\\pickup.js"
+			],
+			[
+				"trigger",
+				"public\\src\\testtrigger.js"
+			],
+			[
+				"my",
+				"public\\src\\mygame.js"
+			],
+			[
+				"h",
+				"public\\src\\hitbox.js"
+			],
+			[
+				"level",
+				"public\\src\\level-1.js"
+			],
+			[
+				"climb",
+				"public\\src\\climbtrigger.js"
+			],
+			[
+				"myga",
+				"public\\src\\mygame.js"
+			],
+			[
+				"testtri",
+				"htdocs\\nadion-master\\sample\\src\\testtrigger.js"
+			],
+			[
+				"player.js",
+				"htdocs\\nadion-master\\BA Game\\src\\player.js"
+			],
+			[
+				"wow",
+				"tp-web\\js\\wow.min.js"
+			],
+			[
+				"testtr",
+				"htdocs\\nadion-master\\sample\\src\\testtrigger.js"
+			],
+			[
+				"resondanfrage",
+				"htdocs\\respond\\themes\\riegermoser\\layouts\\anfrageFormular.html"
+			],
+			[
+				"respondhom",
+				"htdocs\\respond\\themes\\advanced\\layouts\\home.html"
+			],
+			[
+				"respondstyle.less",
+				"htdocs\\respond\\themes\\riegermoser\\styles\\style.less"
+			],
+			[
+				"resstyle.less",
+				"htdocs\\respond\\themes\\riegermoser\\styles\\style.less"
+			],
+			[
+				"anfrageform",
+				"htdocs\\respond\\themes\\riegermoser\\layouts\\anfrageFormular.html"
+			],
+			[
+				"anfr",
+				"htdocs\\Riegerundmoser alte Seite\\anfrageformular.htm"
+			],
+			[
+				"germanindex",
+				"htdocs\\german\\index.php"
+			],
+			[
+				"de_",
+				"htdocs\\german\\de\\de_mail.php"
+			],
+			[
+				"mailjs",
+				"htdocs\\german\\js\\de_mail.js"
+			],
+			[
+				"ar",
+				"htdocs\\german\\ar_mail.php"
+			],
+			[
+				"schoe",
+				"htdocs\\german\\schoen-abnehmen.php"
+			],
+			[
+				"proton",
+				"htdocs\\german\\krebs-protonen.php"
+			],
+			[
+				"biolo",
+				"htdocs\\german\\krebs-biologisch.php"
+			],
+			[
+				"side",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"hotel",
+				"htdocs\\german\\service-hotel.php"
+			],
+			[
+				"icsi",
+				"htdocs\\german\\kind-icsi.php"
+			],
+			[
+				"kind",
+				"htdocs\\german\\kind.php"
+			],
+			[
+				"haare",
+				"htdocs\\german\\schoen-haarentfernung.php"
+			],
+			[
+				"abn",
+				"htdocs\\german\\schoen-abnehmen.php"
+			],
+			[
+				"knochen",
+				"htdocs\\german\\knochen-huefte.php"
+			],
+			[
+				"cyber",
+				"htdocs\\german\\krebs-cyberknife.php"
+			],
+			[
+				"dolm",
+				"htdocs\\german\\service-dolm.php"
+			],
+			[
+				"basic",
+				"htdocs\\german\\service-basic.php"
+			],
+			[
+				"service",
+				"htdocs\\german\\service-comfort.php"
+			],
+			[
+				"haar",
+				"htdocs\\german\\schoen-haarpflanzen.php"
+			],
+			[
+				"partner",
+				"htdocs\\german\\partner.php"
+			],
+			[
+				"haa",
+				"htdocs\\german\\schoen-haarpflanzen.php"
+			],
+			[
+				"about",
+				"htdocs\\german\\about.php"
+			],
+			[
+				"b-serv",
+				"htdocs\\german\\bottombar\\b-service.php"
+			],
+			[
+				"checku",
+				"htdocs\\german\\checkup.php"
+			],
+			[
+				"check",
+				"htdocs\\german\\checkup.html"
+			],
+			[
+				"checkup",
+				"htdocs\\g\\checkup.php"
+			],
+			[
+				"mail.js",
+				"htdocs\\german\\js\\mail.js"
+			],
+			[
+				"sevice-lim",
+				"htdocs\\german\\service-lim.php"
+			],
+			[
+				"germansi",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"germanhotel",
+				"htdocs\\german\\service-hotel.php"
+			],
+			[
+				"ar_m",
+				"htdocs\\german\\ar_mail.php"
+			],
+			[
+				"germanside",
+				"htdocs\\german\\sidebar.php"
+			],
+			[
+				"index.php",
+				"htdocs\\german\\index.php"
+			],
+			[
+				"style.less",
+				"ctc-redesign\\less\\style.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"selected_items":
+		[
+			[
+				"bach",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"bache",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"wor",
+				"C:\\xampp\\htdocs\\test_lav\\test\\public\\src\\wordpress.sublime-project"
+			],
+			[
+				"bachelro",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"b",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"ba",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"bac",
+				"C:\\xampp\\htdocs\\test_lav\\test\\bachelor.sublime-project"
+			],
+			[
+				"sp",
+				"C:\\xampp\\htdocs\\netz\\spass.sublime-project"
+			],
+			[
+				"sa",
+				"C:\\xampp\\htdocs\\netz\\spass.sublime-project"
+			],
+			[
+				"wws",
+				"C:\\xampp\\htdocs\\wws\\wws.sublime-workspace"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 519.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

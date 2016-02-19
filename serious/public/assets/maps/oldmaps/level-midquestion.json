@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="400" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="height" value="2560"/>
+  <property name="width" value="12800"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../img/tiles.png" width="1280" height="1280"/>
+  <tile id="41">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="163">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="236">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="238">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="316">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="322">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="323">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="324">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="325">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="326">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="327">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="328">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="356">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="358">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="381">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="383">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="384">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="401">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="402">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="404">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="405">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="406">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="407">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="408">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="409">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="410">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="411">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="436">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="438">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="441">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="451">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="453">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="454">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="455">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="476">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="478">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="516">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="518">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="521">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="523">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="524">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="525">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="526">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="528">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="529">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="530">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="531">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="556">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="558">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="596">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="598">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="613">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="614">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="615">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="616">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="617">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="618">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="619">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="620">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="636">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="637">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="638">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="675">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="676">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="677">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="703">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="743">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="819">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="820">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="821">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="841">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="842">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="843">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="844">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="845">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="846">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="847">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="848">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="849">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="850">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="851">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="863">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="864">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="865">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="881">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="891">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="921">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="931">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="961">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="962">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="963">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="964">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="965">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="966">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="967">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="968">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="969">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="970">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="971">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="backgorund-par" width="400" height="80">
+  <properties>
+   <property name="scrollFactorX" value="1"/>
+   <property name="scrollFactorY" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U9/gBFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAP0DwAB
+  </data>
+ </layer>
+ <layer name="BG-effect" width="400" height="80">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="bg-main" width="400" height="80">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="main" width="400" height="80">
+  <properties>
+   <property name="solid" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <objectgroup name="objects" width="400" height="80">
+  <object name="climbtrigger" type="ClimbTrigger" x="359" y="819" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="548" y="1232" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="226" y="482" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="1857" y="529" width="22" height="552">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="2084" y="798" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="2499" y="1203" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="3843" y="1554" width="28" height="503">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="4456" y="1145" width="16" height="583">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="3971" y="801" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="6981" y="1579" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="7174" y="1394" width="20" height="432">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="7272" y="834" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="9604" y="1273" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="10497" y="1265" width="16" height="470">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="10086" y="1554" width="16" height="456">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="10120" y="983" width="16" height="456">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="8771" y="1591" width="21" height="679">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="climbtrigger" type="ClimbTrigger" x="5668" y="1202" width="17" height="440">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="on" value="tester"/>
+    <property name="target" value="player"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="10781" y="1012" width="47" height="101">
+   <properties>
+    <property name="type" value="sdfsdfsdf"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="10789" y="1398" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="10794" y="1690" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="10787" y="2007" width="47" height="101">
+   <properties>
+    <property name="type" value="Handlungsanleitung"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="7738" y="1047" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="7741" y="1435" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="7714" y="1762" width="47" height="101">
+   <properties>
+    <property name="type" value="Verstehen"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="7743" y="2106" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="4324" y="1914" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="4709" y="1558" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="4701" y="1302" width="47" height="101">
+   <properties>
+    <property name="type" value="Dekorieren"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="4609" y="980" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="2753" y="1814" width="47" height="101">
+   <properties>
+    <property name="type" value="Handlungsanleitung"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="2654" y="1405" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="2501" y="1012" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="2435" y="565" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="771" y="568" width="47" height="101">
+   <properties>
+    <property name="type" value="Veranschaulichen"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="862" y="980" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="868" y="1431" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="ChallegenTrigger" type="Challenge" x="801" y="1779" width="47" height="101">
+   <properties>
+    <property name="type" value="makeclear"/>
+   </properties>
+  </object>
+  <object name="Pickup-Tut" type="Pickup" x="249" y="1456" width="32" height="34">
+   <properties>
+    <property name="picture" value="veran3"/>
+    <property name="pictureType" value="Veranschaulichen"/>
+   </properties>
+  </object>
+  <object name="Pickup-Tut" type="Pickup" x="1848" y="411" width="32" height="34">
+   <properties>
+    <property name="picture" value="anleitung3"/>
+    <property name="pictureType" value="Handlungsanleitung"/>
+   </properties>
+  </object>
+  <object name="Pickup-Tut" type="Pickup" x="3144" y="2195" width="32" height="34">
+   <properties>
+    <property name="picture" value="deko3"/>
+    <property name="pictureType" value="Dekorieren"/>
+   </properties>
+  </object>
+  <object name="Pickup-Tut" type="Pickup" x="6207" y="1338" width="32" height="34">
+   <properties>
+    <property name="picture" value="verstehen3"/>
+    <property name="pictureType" value="Verstehen"/>
+   </properties>
+  </object>
+  <object name="Pickup-Tut" type="Pickup" x="9391" y="1942" width="32" height="34">
+   <properties>
+    <property name="picture" value="anleitung4"/>
+    <property name="pictureType" value="Handlungsanleitung"/>
+   </properties>
+  </object>
+  <object name="player" type="Player" x="55" y="1509"/>
+  <object name="Shaman" type="Shaman" x="12185" y="1928" width="38" height="80">
+   <properties>
+    <property name="state" value="intro"/>
+   </properties>
+  </object>
+  <object name="ResetTrigger" type="NextLevelTrigger" x="22" y="2345" width="109" height="88">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="level" value="5"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="BacktoStart" type="NextLevelTrigger" x="418" y="2036" width="1235" height="174">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="level" value="5"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="BacktoStart" type="NextLevelTrigger" x="5615" y="2393" width="1235" height="174">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="level" value="2"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="BacktoStart" type="NextLevelTrigger" x="11954" y="2403" width="1235" height="174">
+   <properties>
+    <property name="entity" value="player"/>
+    <property name="level" value="5"/>
+    <property name="trigger_on_touch" value="true"/>
+   </properties>
+  </object>
+  <object name="jumper" type="Enemy" x="663" y="1847" width="32" height="32">
+   <properties>
+    <property name="enemyType" value="jumper"/>
+    <property name="jump-velocity" value="700"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="fore" width="400" height="80">
+  <data encoding="base64" compression="zlib">
+   eJzt3cmu6zQYAOBwufcgBjE/B4jh8XgaJGbWsADegMu4hwWwYwl7fISqVj1J2rh2PH2fZB0dqa3cxP5/x07caQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoCffP56mp49L1wKAms3lin/C///KHwDd+CrE9K8Tx/VSuSLHdwFg3m8h3v7eSczt6bsA1O7uyTQ996R0LdLo6bsA1Oh0feKtEG/fDuX5u2l6IZQXQ3nprmz95lxTv8N3AeDomxAXvw3lu5n4eJoP1l53MLc+8U6Iye+G8l4o72fIH3Nr6lvuycpdP4Be/RHywZ+h/DWTF07zwdrrSprLWe7JAgAAAAAAAAAAAAAA2Mb+g/1xToE99LL/oJh51Ms5hVjiwT562X9QzDzq5Zy2TPwqSzzYR4n9B2P3bVx7n5h5ZE/J8sSvssSDZa3/Lmzsvohr79sSM2s/frXvizynxTrnJH6VZQz1v7m9dWP3ILxmn94R1L6HY4v7DrdY55TO86f4VZdRxzcp99atdZ9eaMFaDBo9f9bO+WnL389M08uPpumVUF4N5bVQXg/ljUelawZxxCDYx5vyBAxh1LkhAG7jugz65DkEAGJ4DgGAg/PnV9buy871HELOOW/z6UBpvc7dnD+/snZf9vlzCEu5ZmvMzjnnneKz5aCx9dr3a9PzcW517iZn7FvKNb2tgZb+Pj33q5RytfVW+35rWjjOsW0s5dxNqj1PTj9n6XuVjn3croV+VYNcbf1S3x/5+nRpDuJSjJt7Xwv79GxtY4fjcD53c0ubSbXnyennyBNlxLSDre9poV/lUkNsvrR/zMh9b2kO4lKMm3vf4TjXcM5TWToOI7cZjmLawdb3jLz/lX42Hue8T+bhx9LTOBBOfRTKx6F8EsqnoXwWyuehfFGyUp0zDz8W40B68OF0zBf3+eHLUJ6G8kMoP4byUyg/h/JLKL8WquMI9p6Hv3X8a/wMUIdrn/9I5dbxr/EzQJ3m7qEw5qc31v3goWueH9nKmJ8WbGnv1v3gob2fH3FtEidm/OtYp/uNx5Gfv9mD67t61Bw3XJvEiRn/OtbpjsHS8zc197WWjHZ9V3O+FDfy2Rov1l6/5bNqGv+KmUf6Who1te89jJYvR3BNXNwaL9Zev+Wzanr+XMzkFnP3bNbUvm91WFNeiyVz+fJS/Em1ZyJ5iItwm2vu51/7fYiWLMX7w5ryXCxZ2kvx3qX4k2rPxJRqnocD2tJLbrhGzHizxhxwC/NwAMRYW7eyTkoO2hXU7do+urZuZT2AHHK0q9w5yTwvvVlbj98z9n/wrDElZeVu7+Z56U1NazFL/Tdmf0W5iNqUfj5BnyBG6/f8xtyPYd7sIfMn+1iK06meT4jdr1qfIEZN1xi1uZ83G4X5k33ExOnznLCWI0a6v5X9tH6dUcIe+eMwHj3/u/c8Qun5E5ad5wQ5gr25zthuj/xxGI+e/917HqGn/R2Abax/pVfT/FVt57eW+tRSD2iZ9a/0asoftZ3fWupTSz0ATt3nj5pyCADtkD8AiCF/ABBD/gAghvwBQAz5A4AY8gcAMeQPAGLIH5DXf96BNF4=
+  </data>
+ </layer>
+</map>
