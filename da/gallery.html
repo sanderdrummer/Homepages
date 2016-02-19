@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>deviantArt Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+  <body class="loggedOut theme-green">
+		<div class="bar">
+	  	<div class="container">
+				<svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="25.8 20.1 238.4 109.2" xml:space="preserve">
+					<path class="dalogo" d="M109.4,105.1V64.6c-27,7.7-37,24.5-39.9,40.5H109.4L109.4,105.1z M141.4,42c1.2,0,2.4,0,3.6,0c32.9,0,62.7,8.4,84.3,22
+						c21.6,13.6,34.9,32.3,34.9,53c0,4.2-0.5,8.3-1.6,12.3h-5.7h-36.5h-71.9V122v-16.8V67.7c13.1,0.3,23.6,1.9,32,4.5v32.9h39.9
+						c-4-21.7-20.9-44.8-75.5-44.8c-1.2,0-2.4,0-3.6,0v44.8v24.1h-32H69.6H33.8h-6.4c-1-4-1.6-8.1-1.6-12.3c0-20.7,13.3-39.5,34.9-53
+						c13.5-8.5,30.1-14.9,48.7-18.6V23.1c10.3-1.8,21.1-2.8,32-3L141.4,42L141.4,42z" />
+				</svg>
+				<ul class="nav navbar-nav navbar-right loggedIn">
+					<li class="dropdown theme-switcher-button">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+						<ul class="dropdown-menu theme-switcher" role="menu">
+							<li><a href="#" class="theme-green">Green</a></li>
+							<li><a href="#" class="theme-red">Red</a></li>
+							<li><a href="#" class="theme-orange">Orange</a></li>
+							<li><a href="#" class="theme-blue">Blue</a></li>
+							<li><a href="#" class="theme-red-green">Red/Green</a></li>
+							<li><a href="#" class="theme-red-orange">Red/Orange</a></li>
+							<li><a href="#" class="theme-brown">Brown</a></li>
+							<li><a href="#" class="theme-fur">Fur</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account <b class="caret"></b></a>
+						<ul class="dropdown-menu" id="loginFormMenu" role="menu">
+							<li><a href="profile.html">View</a></li>
+							<li><a href="messages.html">Messages</a></li>
+							<li><a href="upload.html">Upload</a></li>
+							<li><a href="journal.html">Add Journal Entry</a></li>
+							<li class="divider"></li>
+							<li><a href="#logOut" class="logOut">Log Out</a></li>
+						</ul>
+					</li>
+					<li><a href="preferences.html"><span class="glyphicon glyphicon-cog"></span> Preferences</a></li>
+				</ul>
+				<form action="#" id="loginForm" class="loggedOut" method="post" accept-charset="UTF-8">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown theme-switcher-button">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+							<ul class="dropdown-menu theme-switcher" role="menu">
+								<li><a href="#" class="theme-green">Green</a></li>
+								<li><a href="#" class="theme-red">Red</a></li>
+								<li><a href="#" class="theme-orange">Orange</a></li>
+								<li><a href="#" class="theme-blue">Blue</a></li>
+								<li><a href="#" class="theme-red-green">Red/Green</a></li>
+								<li><a href="#" class="theme-red-orange">Red/Orange</a></li>
+								<li><a href="#" class="theme-brown">Brown</a></li>
+								<li><a href="#" class="theme-fur">Fur</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-off"></span> Login <b class="caret"></b></a>
+							<ul class="dropdown-menu" id="login-menu" role="menu">
+								<li class="form-group"><input type="text" class="form-control" id="loginID" placeholder="DeviantID"></li>
+								<li class="form-group"><input type="password" class="form-control" id="loginPassword" placeholder="Password"></li>
+								<li><label><input type="checkbox"> Remeber Me</label></li>
+								<li class="form-group"><button type="button" id="logIn" class="btn btn-success btn-block">Login</button></li>
+								<li class="divider"></li>
+								<li class="form-group"><a href="register.html" class="btn btn-info btn-block">Register?</a></li>
+							</ul>
+						</li>
+						<li><a href="tour.html"><span class="typcn typcn-globe-outline"></span> Tour</a></li>
+					</ul>
+				</form>
+  		</div>
+  	</div>
+
+		<nav class="navbar navbar-default navbar-top" role="navigation" id="navigation-primary">
+			<a class="navbar-brand" href="#">
+				<svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="25.8 20.1 238.4 109.2" xml:space="preserve">
+				<path class="dalogo" d="M109.4,105.1V64.6c-27,7.7-37,24.5-39.9,40.5H109.4L109.4,105.1z M141.4,42c1.2,0,2.4,0,3.6,0c32.9,0,62.7,8.4,84.3,22
+					c21.6,13.6,34.9,32.3,34.9,53c0,4.2-0.5,8.3-1.6,12.3h-5.7h-36.5h-71.9V122v-16.8V67.7c13.1,0.3,23.6,1.9,32,4.5v32.9h39.9
+					c-4-21.7-20.9-44.8-75.5-44.8c-1.2,0-2.4,0-3.6,0v44.8v24.1h-32H69.6H33.8h-6.4c-1-4-1.6-8.1-1.6-12.3c0-20.7,13.3-39.5,34.9-53
+					c13.5-8.5,30.1-14.9,48.7-18.6V23.1c10.3-1.8,21.1-2.8,32-3L141.4,42L141.4,42z" />
+				</svg>
+			</a>
+			<div class="btn-group loggedIn user-menu pull-right">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<span class="glyphicon glyphicon-user"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="profile.html">View</a></li>
+					<li><a href="messages.html">Messages</a></li>
+					<li><a href="upload.html">Upload</a></li>
+					<li><a href="journal.html">Add Journal Entry</a></li>
+					<li class="divider"></li>
+					<li><a href="#logOut" class="logOut">Log Out</a></li>
+				</ul>
+				<a href="preferences.html" class="btn btn-default"><span class="glyphicon glyphicon-cog"></span></a>
+			</div>
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="index.html"><span class="glyphicon glyphicon-th"></span> Gallery</a></li>
+						<li><a href="groups.html"><span class="glyphicon glyphicon-map-marker"></span> Groups</a></li>
+						<li><a href="shop.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shop</a></li>
+					</ul>
+					<div class="col-sm-5 pull-right navbar-search">
+						<form class="form-inline" id="search" role="search">
+							<div class="input-group">
+								<input type="Search" data-toggle="dropdown" value="" id="search-input" placeholder="Search" class="form-control" />
+								<ul class="dropdown-menu hidden pointer" id="search-suggest" role="menu">
+
+								</ul>
+								<div class="input-group-btn">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+										<span class="glyphicon glyphicon-wrench"></span>
+										<span class="caret"></span>
+										<span class="sr-only">Toggle Dropdown</span>
+									</button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="#">Here</a></li>
+										<li><a href="#">Gallery only</a></li>
+										<li><a href="#">Groups only</a></li>
+										<li><a href="#">Shop only</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Everywhere</a></li>
+									</ul>
+									<button type="button" class="btn btn-success" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+
+		<div class="container" id="profile">
+			<div class="row">
+				<div class="col-xs-12 banner-wrap">
+					<img class="banner-profile" src="img/profile/profile-img.png" alt="" title="">
+					<img class="banner" src="img/profile/banner.png" alt="" title="">
+					<span class="banner-name"><h3>babyinblue</h3></span>
+				</div>
+			</div>
+
+			<div class="row" id="navigation-secondary">
+				<div class="col-xs-12">
+					<nav class="navbar navbar-default navbar-static-top">
+						<div class="navbar-header navbar-fixed-top">
+							<a class="navbar-brand" href="#">babyinblue</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li><a href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+							<li class="active"><a href="gallery.html"><span class="glyphicon glyphicon-th"></span> Gallery</a></li>
+							<li class="active chevron"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-chevron-down"></span></a></li>
+							<li><a href="journal.html"><span class="glyphicon glyphicon-pencil"></span> Journal</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><span class="glyphicon glyphicon-eye-open"></span> Watch</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Message</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="container categories">
+							<div class="row wide tagrow hidden">
+								<div class="col-xs-12">
+									<h4>Tags</h4>
+										<div class="tag-container bounceInLeft">
+										</div>
+								</div>
+							</div>
+
+							<div class="col-xs-2">
+								<h4>Categories</h4>
+								<ul class="list-unstyled">
+									<li><div class="btn-group">
+											<button type="button" data-filter=".digital" class="btn btn-sm btn-default cat-toggle">Digital Art</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".digital" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.digital)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".traditional" class="btn btn-sm btn-default cat-toggle">Traditional Art</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".traditional#" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.traditional)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".photography" class="btn btn-sm btn-default cat-toggle">Photography</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".photography" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.photography)" href="#">Exclude</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".crafts" class="btn btn-sm btn-default cat-toggle">Artisan Crafts</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".crafts" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.crafts)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".anthro" class="btn btn-sm btn-default cat-toggle">Anthro</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".anthro" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.anthro)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<ul class="list-unstyled">
+									<li><div class="btn-group">
+											<button type="button" data-filter=".literature" class="btn btn-sm btn-default cat-toggle">Literature</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".literature" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.literature)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".film" class="btn btn-sm btn-default cat-toggle">Film &amp; Animation</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".film" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.film)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".motion" class="btn btn-sm btn-default cat-toggle">Motion Books</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".motion" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.motion)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".flash" class="btn btn-sm btn-default cat-toggle">Flash</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".flash" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.flash)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".fanart" class="btn btn-sm btn-default cat-toggle">Fan Art</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".fanart" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.fanart)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<ul class="list-unstyled">
+									<li><div class="btn-group">
+											<button type="button" data-filter=".design" class="btn btn-sm btn-default cat-toggle">Design &amp; Interfaces</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".design" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.design)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".custom" class="btn btn-sm btn-default cat-toggle">Customization</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".custom" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.custom)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".comics" class="btn btn-sm btn-default cat-toggle">Cartoons &amp; Comics</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".comics" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.comics)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".anime" class="btn btn-sm btn-default cat-toggle">Manga &amp; Anime</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".anime" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.anime)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".stock" class="btn btn-sm btn-default cat-toggle">Stock Images</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".stock" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.stock)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<ul class="list-unstyled">
+									<li><div class="btn-group">
+											<button type="button" data-filter=".community" class="btn btn-sm btn-default cat-toggle">Community Projects</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".community" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.community)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".contest" class="btn btn-sm btn-default cat-toggle">Contests</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".contest" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.contest)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".challenges" class="btn btn-sm btn-default cat-toggle">Design Challenges</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".challenges" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.challenges)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".journals" class="btn btn-sm btn-default cat-toggle">Journals</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".journals" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.journals)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" data-filter=".related" class="btn btn-sm btn-default cat-toggle">deviantART Related</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" data-filter=".related" href="#">Include</a></li>
+												<li><a class="exclude-cat" data-filter=":not(.related)" href="#">Exclude</a></li>
+											</ul>
+										</div></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+							</div>
+							<div class="col-xs-2">
+								<h4>Sorting</h4>
+								<ul class="list-unstyled">
+										<li><div class="btn-group">
+											<button type="button" class="btn btn-sm btn-default cat-toggle filter-toggle">Name</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" href="#">Ascending</a></li>
+												<li><a class="exclude-cat" href="#">Descending</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" class="btn btn-sm btn-default cat-toggle filter-toggle">Date</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" href="#">Ascending</a></li>
+												<li><a class="exclude-cat" href="#">Descending</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" class="btn btn-sm btn-default cat-toggle filter-toggle">Ratings</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" href="#">Ascending</a></li>
+												<li><a class="exclude-cat" href="#">Descending</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" class="btn btn-sm btn-default cat-toggle filter-toggle">Views</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" href="#">Ascending</a></li>
+												<li><a class="exclude-cat" href="#">Descending</a></li>
+											</ul>
+										</div></li>
+									<li><div class="btn-group">
+											<button type="button" class="btn btn-sm btn-default cat-toggle filter-toggle">Artist</button>
+											<button type="button" class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown">
+												<span class="caret"></span>
+												<span class="sr-only">Toggle Dropdown</span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a class="include-cat" href="#">Ascending</a></li>
+												<li><a class="exclude-cat" href="#">Descending</a></li>
+											</ul>
+										</div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div id="grid" class="profile-gallery">
+				<div class="iso-item loggedIn">
+					<div class="item-c-1 item-r-1">
+						<h1 class="text-center"><a href="upload.html" class="upload-box"><span class="glyphicon glyphicon-plus"></span><br><small>Add Item to your gallery</small></a></h1>
+					</div>
+				</div>
+				<div class="iso-item bigquad anime digital woman">
+					<img class="thumb" id="0" alt="..." src="img/gal/0.jpg" data-title="Impossible LOV3 ver.3" data-user="Bluefley" data-userimg="img/gal/bluefley.jpg" data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star-outline"></span><span class="icon ion-ios7-star-outline"></span><span class="icon ion-ios7-star-outline"></span>'  data-description='mixed media Sharpie china marker + fabercastell oil pencil + derwent coloursoft pencil + toned sketchbook Thank you for looking!' data-category="Traditional Art" data-tags="girl cutie painting" data-miI="img/gal/bm1.jpg" data-miII="img/gal/bm2.jpg" data-miIII="img/gal/bm3.jpg" />
+					<div class="iso-caption text-left">
+						<h4 class="name">Impossible LOV3</h4>
+						<p class="artist">by Bluefley</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad woman photography red">
+					<img class="thumb" id="1" alt="..." src="img/gal/1.jpg" data-title="Woman in Red" data-user="babyinblue" data-userimg="img/gal/babyinblue.jpg" data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star-outline"></span>' data-description='Red Hair blowing in the wind. Selfportrait. I am so pretty' data-category="Photography" data-tags="woman red face selfportrait" data-miI="img/gal/v1.jpg" data-miII="img/gal/v2.jpg" data-miIII="img/gal/v3.jpg" />
+					<div class="iso-caption text-left">
+						<h4 class="name">Woman in Red</h4>
+						<p class="artist">by babyinblue</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect traditional sketch eye">
+					<img class="thumb" id="2" alt="..." src="img/gal/2.jpg"  data-title="Eye" data-user="EmersonAlmeida" data-userimg="img/gal/emersonalmeida.gif" data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star-outline"></span><span class="icon ion-ios7-star-outline"></span><span class="icon ion-ios7-star-outline"></span><span class="icon ion-ios7-star-outline"></span>' data-description='i was board so i typed eye for some thing then i made a bigg fart' data-category="Traditional Art" data-tags="eye painting fart" data-miI="img/gal/me1.jpg" data-miII="img/gal/me2.jpg" data-miIII="img/gal/me3.jpg" />
+					<div class="iso-caption text-left">
+						<h4 class="name">Eye</h4>
+						<p class="artist">by EmersonAlmeida</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad cat digital animal grumpy">
+					<img class="thumb" id="3" alt="..." src="img/gal/3.jpg"
+						data-title="GrumpyCat"
+						data-user="ThreshTheSky"
+						data-userimg="img/gal/threshthesky.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star-outline"></span>'
+						data-description='"I had fun once. It was awful."
+							Digital painting of Grumpy Cat, who just appeared in a TIME Magazine photo shoot.
+							Related:
+							Tardar Sauce, aka "Grumpy Cat," is a real cat who lives with her humans in the US. The reference photo used belongs to her humans and is available here. A tutorial on how I paint fur is posted here.'
+						data-category="Digital Art"
+						data-tags="Animals Cat Grumpy"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"/>
+						<div class="iso-caption text-left">
+						<h4 class="name">GrumpyCat</h4>
+						<p class="artist">by ThreshTheSky</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad unicorn animal digital">
+					<img class="thumb" alt="..." src="img/gal/4.jpg"
+						data-title="Fat Unicorn"
+						data-user="PeterG"
+						data-userimg="img/gal/threshthesky.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star-outline"></span>'
+						data-description='Fat Unicorns always a good Idea for having some fun. :3'
+						data-category="Digital Art"
+						data-tags="Animals Cat Grumpy"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Fat Unicorn</h4>
+						<p class="artist">by PeterG</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect photography punk men">
+					<img class="thumb " alt="..." src="img/gal/Playground_Punk_by_girltripped.jpg"
+						data-title="PlaygroundPunk"
+						data-user="girltripped"
+						data-userimg="img/gal/girltripped.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='I wish we had watermarked this long ago - if you see if stolen, please tell us. This photo is not to be taken or used for anything without written permission by us.'
+						data-category="Photography"
+						data-tags="Punk Men Baby Playground"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">PlaygroundPunk</h4>
+						<p class="artist">by girltripped</p>
+					</div>
+				</div>
+
+				<div class="iso-item vrect woman anime red digital">
+					<img class="thumb " alt="..." src="img/gal/firewithin.jpg"
+						data-title="Fire Within Me"
+						data-user="Af-Studios"
+						data-userimg="img/gal/af-studios.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='Oh its been a while...
+							This is the first piece I created after more then two months of being away. Its really good to be back :w00t:
+
+							:bulletred: Dedicated to all my friends here for their endless support,and to someone very special in my life right now :heart:
+
+							The work itself didnt require much time,but the fire was a pain to adjust...and I hate doing lighting on a face since I usually mess it up with too much "paint",but I actually like to overall look of this. Hope you will too.
+							Check out the original image in the credits below.
+
+							New screen,new settings,so if it looks too dark,lemme know :thanks:'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Fire Within Me</h4>
+						<p class="artist">by Af-Studios</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect woman photography eye art">
+					<img class="thumb" alt="..." src="img/gal/christmas.jpg"
+						data-title="NightmareBeforeChristmasEyes"
+						data-user="KatieAlves"
+						data-userimg="img/gal/katiealves.jpg"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='First off, Id like to say that the house design is not my own. 	I used sweetgreychaos design, so go check her out! Her stuff is amazing!
+							My house is a way smaller version of hers, so sadly it isnt as crisp, but its a house none the less.
+
+							I had a problem with my new yellow I got... it smudges everywhere! I constantly had to keep fixing that damn moon!
+
+							Just out of curiosity, lets see how many of you actually read this little description. Put <3 <3 <3 if you read this! :love:
+							*edit* Holy crap, I didnt realize how MANY of you read this. Im impressed! Haha! I now understand!'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">NightmareBeforeChristmasEyes</h4>
+						<p class="artist">by KatieAlves</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad woman photography art eye">
+					<img class="thumb " alt="..." src="img/gal/delusion.jpg"
+						data-title="Delusion"
+						data-user="Miss--Dee"
+						data-userimg="img/gal/miss--dee.jpg"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Delusion</h4>
+						<p class="artist">by Miss--Dee</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad water photography art">
+					<img class="thumb " alt="..." src="img/gal/watercolor.jpg"
+						data-title="Water Color"
+						data-user="Lucifer"
+						data-userimg="img/gal/Lucifer.jpg"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Water Color</h4>
+						<p class="artist">by Lucifer</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad woman anime digital red">
+					<img class="thumb " alt="..." src="img/gal/angelfire.jpg"
+						data-title="Angel of Fire"
+						data-user="Garun"
+						data-userimg="img/gal/garun.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Angel of Fire</h4>
+						<p class="artist">by Garun</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad digital anime woman">
+					<img class="thumb " alt="..." src="img/gal/workstation.jpg"
+						data-title="The Workstation"
+						data-user="Joujika"
+						data-userimg="img/gal/Joujika.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">The Workstation</h4>
+						<p class="artist">by Joujika</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad photography">
+					<img class="thumb " alt="..." src="img/gal/endof.jpg"
+						data-title="End of the world"
+						data-user="Four Eyes"
+						data-userimg="img/gal/Four Eyes.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">End of the world</h4>
+						<p class="artist">by Four Eyes</p>
+					</div>
+				</div>
+
+				<div class="iso-item vrect photography anime cosplay">
+					<img class="thumb " alt="..." src="img/gal/deathnote.jpg"
+						data-title="Death Note Cosplay"
+						data-user="DeathNerds"
+						data-userimg="img/gal/DeathNerds.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Death Note Cosplay</h4>
+						<p class="artist">by DeathNerds</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad photography crafts anime cosplay">
+					<img class="thumb " alt="..." src="img/gal/belly_dancer.jpg"
+						data-title="Belly Dancer"
+						data-user="Jane"
+						data-userimg="img/gal/Jane.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Belly Dancer</h4>
+						<p class="artist">by Jane</p>
+					</div>
+				</div>
+
+				<div class="iso-item vrect traditional animal">
+					<img class="thumb " alt="..." src="img/gal/foxfun.jpg"
+						data-title="Fox Fun"
+						data-user="Culpo Fox"
+						data-userimg="img/gal/Culpo Fox.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Fox Fun</h4>
+						<p class="artist">by Culpo Fox</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad photography">
+					<img class="thumb " alt="..." src="img/gal/cookie.jpg"
+						data-title="Gimmie That Cookie !!!"
+						data-user="Lady-Tori"
+						data-userimg="img/gal/Lady-Tori.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Gimmie That Cookie !!!</h4>
+						<p class="artist">by Lady-Tori</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad crafts photography">
+					<img class="thumb " alt="..." src="img/gal/plushie.jpg"
+						data-title="DA Plushie"
+						data-user="deviantART Gear"
+						data-userimg="img/gal/deviantART Gear.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">DA Plushie</h4>
+						<p class="artist">by deviantART Gear</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect cat woman photography">
+					<img class="thumb " alt="..." src="img/gal/catkiss.jpg"
+						data-title="Because we share life"
+						data-user="fangedfem"
+						data-userimg="img/gal/fangedfem.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Because we share life</h4>
+						<p class="artist">by fangedfem</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad digital anime">
+					<img class="thumb " alt="..." src="img/gal/gentledown.jpg"
+						data-title="Gentle Down..."
+						data-user="Catalist"
+						data-userimg="img/gal/Catalist.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Gentle Down...</h4>
+						<p class="artist">by Catalist</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect digital anime woman">
+					<img class="thumb " alt="..." src="img/gal/alice.jpg"
+						data-title="Alice Reworked"
+						data-user="Faudalius"
+						data-userimg="img/gal/Faudalius.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Alice Reworked</h4>
+						<p class="artist">by Faudalius</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad photography grumpy">
+					<img class="thumb " alt="..." src="img/gal/deathrides.jpg"
+						data-title="Death Rides a Pale Trike"
+						data-user="-Stock"
+						data-userimg="img/gal/-Stock.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Death Rides a Pale Trike</h4>
+						<p class="artist">by -Stock</p>
+					</div>
+				</div>
+
+				<div class="iso-item vrect digital anime woman">
+					<img class="thumb " alt="..." src="img/gal/peppersmile.jpg"
+						data-title="Peppersmile"
+						data-user="EmersonAlmeida"
+						data-userimg="img/gal/EmersonAlmeida.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Peppersmile</h4>
+						<p class="artist">by EmersonAlmeida</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad photography woman">
+					<img class="thumb " alt="..." src="img/gal/shy.jpg"
+						data-title="Shy"
+						data-user="babyinblue"
+						data-userimg="img/gal/babyinblue.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Shy</h4>
+						<p class="artist">by babyinblue</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad crafts cat woman">
+					<img class="thumb " alt="..." src="img/gal/blackcat.jpg"
+						data-title="Black Cat Earring"
+						data-user="KittyAzura"
+						data-userimg="img/gal/KittyAzura.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Black Cat Earring</h4>
+						<p class="artist">by KittyAzura</p>
+					</div>
+
+				</div>
+				<div class="iso-item bigquad photography woman">
+					<img class="thumb " alt="..." src="img/gal/alice2.jpg"
+						data-title="Alice Looking Glas"
+						data-user="EllenKarize"
+						data-userimg="img/gal/EllenKarize.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Alice Looking Glas</h4>
+						<p class="artist">by EllenKarize</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad photography cosplay woman">
+					<img class="thumb " alt="..." src="img/gal/smile.jpg"
+						data-title="Smile"
+						data-user="BrianaCherry"
+						data-userimg="img/gal/BrianaCherry.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Smile</h4>
+						<p class="artist">by BrianaCherry</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad photography traditional woman">
+					<img class="thumb " alt="..." src="img/gal/wall.jpg"
+						data-title="About a New Place"
+						data-user="Agnes"
+						data-userimg="img/gal/Agnes.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">About a New Place</h4>
+						<p class="artist">by Agnes</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad anime digital woman">
+					<img class="thumb " alt="..." src="img/gal/retro.jpg"
+						data-title="The new retro Tomorrow"
+						data-user="Brosa"
+						data-userimg="img/gal/Brosa.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">The new retro Tomorrow</h4>
+						<p class="artist">by Brosa</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad photography digital anime cosplay">
+					<img class="thumb " alt="..." src="img/gal/just.jpg"
+						data-title="Just one Hell of a..."
+						data-user="Alienture"
+						data-userimg="img/gal/Alienture.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Just one Hell of a...</h4>
+						<p class="artist">by Alienture</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect photography traditional">
+					<img class="thumb " alt="..." src="img/gal/moust.jpg"
+						data-title="La Moustache"
+						data-user="Alienture"
+						data-userimg="img/gal/Alienture.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">La Moustache</h4>
+						<p class="artist">by Alienture</p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect digital cat grumpy">
+					<img class="thumb " alt="..." src="img/gal/grumpyel.png"
+						data-title="Grumpyel"
+						data-user="Taoshin"
+						data-userimg="img/gal/Taoshin.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Grumpyel</h4>
+						<p class="artist">by Taoshin</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional woman">
+					<img class="thumb " alt="..." src="img/gal/spring.jpg"
+						data-title="The Spring"
+						data-user="Nassimo"
+						data-userimg="img/gal/Nassimo.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">The Spring</h4>
+						<p class="artist">by Nassimo</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional woman photgraphy">
+					<img class="thumb " alt="..." src="img/gal/pencil.jpg"
+						data-title="Pencil vs Camera"
+						data-user="Brad"
+						data-userimg="img/gal/Brad.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Pencil vs Camera</h4>
+						<p class="artist">by Brad</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad traditional woman anime photography">
+					<img class="thumb " alt="..." src="img/gal/lucy.jpg"
+						data-title="Lucy in the Sky"
+						data-user="Tintana"
+						data-userimg="img/gal/Tintana.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Lucy in the Sky</h4>
+						<p class="artist">by Tintana</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional animal">
+					<img class="thumb " alt="..." src="img/gal/epic.jpg"
+						data-title="Epic Battle"
+						data-user="T-Rex"
+						data-userimg="img/gal/T-Rex.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Epic Battle</h4>
+						<p class="artist">by T-Rex</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional crafts cat animal">
+					<img class="thumb " alt="..." src="img/gal/che.jpg"
+						data-title="Chechire Cat"
+						data-user="Creaturesformular"
+						data-userimg="img/gal/Creaturesformular.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Chechire Cat</h4>
+						<p class="artist">by Creaturesformular</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional animal photography">
+					<img class="thumb " alt="..." src="img/gal/fox.jpg"
+						data-title="Red in White"
+						data-user="Nate-Zeman"
+						data-userimg="img/gal/Nate-Zeman.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Red in White</h4>
+						<p class="artist">by Nate-Zeman</p>
+					</div>
+				</div>
+
+				<div class="iso-item smallquad traditional photography">
+					<img class="thumb " alt="..." src="img/gal/jack.jpg"
+						data-title="Capitain Jack"
+						data-user="JPR-Part"
+						data-userimg="img/gal/JPR-Part.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Capitain Jack</h4>
+						<p class="artist">by JPR-Party</p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad animal cat grumpy digital">
+					<img class="thumb " alt="..." src="img/gal/no.png"
+						data-title="Circle of NO"
+						data-user="Taoshin"
+						data-userimg="img/gal/Taoshin.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Circle of NO</h4>
+						<p class="artist">by Taoshin </p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad woman digital">
+					<img class="thumb " alt="..." src="img/gal/emma1.jpg"
+						data-title="Emma Watson"
+						data-user="milu"
+						data-userimg="img/gal/milu.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Emma Watson</h4>
+						<p class="artist">by milu </p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad digital animal">
+					<img class="thumb " alt="..." src="img/gal/wrong.png"
+						data-title="Wrong Potion"
+						data-user="Anachremitis"
+						data-userimg="img/gal/Anachremitis.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Wrong Potion</h4>
+						<p class="artist">by Anachremitis </p>
+					</div>
+				</div>
+
+				<div class="iso-item hrect digital woman">
+					<img class="thumb " alt="..." src="img/gal/liester.jpg"
+						data-title="Comission Liester"
+						data-user="Irene"
+						data-userimg="img/gal/Irene.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Comission Liester</h4>
+						<p class="artist">by Irene </p>
+					</div>
+				</div>
+
+				<div class="iso-item bigquad crafts traditional photography">
+					<img class="thumb " alt="..." src="img/gal/humb.jpg"
+						data-title="Humpback"
+						data-user="MarshalJ"
+						data-userimg="img/gal/MarshalJ.gif"
+						data-rating='<span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"><span class="icon ion-ios7-star"></span><span class="icon ion-ios7-star"></span>'
+						data-description='favs and comments are appreciated. <3'
+						data-category="Digital"
+						data-tags="Woman"
+						data-miI="img/gal/gc1.jpg" data-miII="img/gal/gc2.jpg" data-miIII="img/gal/gc3.jpg"
+					/>
+					<div class="iso-caption">
+						<h4 class="name">Humpback</h4>
+						<p class="artist">by MarshalJ </p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="footer">
+			<hr />
+
+			<div class="container">
+				<h5>&copy; 2014 deviantART. All rights reserved</h5>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Etiquette</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Developers</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-4">
+					<ul class="list-unstyled">
+						<li><a href="#">Premium Membership</a></li>
+						<li><a href="#">Tour</a></li>
+						<li><a href="#">Help &amp; FAQ</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				</div>
+		</div>
+
+		<div class="overlay hidden">
+			<div class="morewrapper">
+				<a href="#" id="to_left" class="pull-left"><span class="icon ion-chevron-left"></span></a>
+				<a href="#" id="to_right" class="pull-right"><span class="icon ion-chevron-right"></span></a>
+				<button id="close" type="button" class="close">&times;</button>
+
+				<div class="hero-wrapper">
+					<div class="slide-right">
+						<img class="hero" alt="…" src="#"/>
+					</div>
+				</div>
+
+				<div id="more_content">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-4">
+								<h4>Description</h4>
+								<p class="description">Red Hair blowing in the wind. Selfportrait. I'm so pretty</p>
+								<br>
+								<h4>Tags</h4>
+								<p class="tags">face red woman</p>
+								<br>
+								<h4>Categories</h4>
+								<p class="category"><a href="#">Photography</a>, <a href="#">Stockimages</a></p>
+								<button class="btn btn-success btn-lg btn-fur btn-block">Download</button>
+							</div>
+							<div class="col-xs-4" >
+								<h4>Comments</h4>
+								<ul class="media-list">
+									<li class="media">
+										<a class="pull-left" href="#"><img alt="…" src="img/profile/c1.png"></a>
+										<div class="media-body">
+											<div class="tria"></div>
+											<textarea class="form-control commentbox" placeholder="Add a comment" rows="3"></textarea>
+											<div class="buttons pull-right">
+												<button type="button" class="btn btn-success btn-sm">Post Comment</button>
+											</div>
+										</div>
+									</li>
+									<li class="media">
+										<a class="pull-left" href="#"><img  alt="…" src="img/profile/c2.jpg"></a>
+										<div class="media-body">
+											<div class="tria"></div>
+											<p class="thumbnail">Wow!~ I really love the colors here. Very simple, but effective when you see that it's clean with no sketchy lines or messiness XD</p>
+										</div>
+									</li>
+									<li class="media">
+										<a class="pull-left" href="#"><img  alt="…" src="img/profile/c3.png"></a>
+										<div class="media-body">
+											<div class="tria"></div>
+											<p class="thumbnail">Love it, I really do! :)</p>
+										</div>
+									</li>
+									<li class="media">
+										<a class="pull-left" href="#"><img alt="…" src="img/profile/c4.gif"></a>
+										<div class="media-body">
+											<div class="tria"></div>
+											<p class="thumbnail">That's beautiful</p>
+										</div>
+									</li>
+									<li class="media">
+										<a class="pull-left" href="#"><img alt="…" src="img/profile/c5.jpg"></a>
+										<div class="media-body">
+											<div class="tria"></div>
+											<p class="thumbnail">I just love your use of vibrant colors!~  </p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-4">
+								<h4>more from <span class="user">babyinblue</span></h4>
+								<a href="#"><img class="more_img" src="img/gal/v1.jpg" alt="..."></a>
+								<a href="#"><img class="more_img" src="img/gal/v2.jpg" alt="..."></a>
+								<a href="#"><img class="more_img" src="img/gal/v8.jpg" alt="..."></a>
+								<h4>more from deviantART</h4>
+								<a href="#"><img class="more_img" src="img/gal/v4.jpg" alt="..."></a>
+								<a href="#"><img class="more_img" src="img/gal/v5.jpg" alt="..."></a>
+								<a href="#"><img class="more_img" src="img/gal/v6.jpg" alt="..."></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav class="unav navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<div class="container">
+					<div class="media pull-left">
+						<a class="pull-left" href="profile.html">
+							<img class="media-object userimage" src="img/gal/babyinblue.jpg" alt="...">
+						</a>
+						<div class="media-body info">
+							<dl class="dl-horizontal">
+								<dt>Title</dt>
+								<dd><a href="profile.html" class="title">Woman</a></dd>
+								<dt>User</dt>
+								<dd><a href="profile.html" class="user">babyinblue</a></dd>
+								<dt>Added</dt>
+								<dd><abbr title="2014-02-10 13:37 UTC+1">Two days ago</abbr></dd>
+							</dl>
+						</div>
+					</div>
+					<ul class="nav navbar-nav pull-left">
+						<li><a href="#"><span class="icon ion-social-facebook"></span></a></li>
+						<li><a href="#"><span class="icon ion-social-twitter"></span></a></li>
+						<li><a href="#"><span class="icon ion-social-googleplus"></span></a></li>
+						<li class="dropup">
+							<a id="dropdownMenu1" data-toggle="dropdown" href="#">Share <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Link</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Embed</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Thumb</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav pull-right">
+						<li><a id="more_click" href="#more_content">About</a></li>
+						<li><a href="#" class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+    <script src="js/json2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/jquery.visible.min.js"></script>
+		<script src="js/jstorage.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
